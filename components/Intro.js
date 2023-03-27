@@ -35,7 +35,7 @@ export default function Intro() {
           </section>
         </div>
         <br />
-        <p>{!password && password.length >= 3 ? '' : "Sorry, as much as we'd love to invite everyone. You weren't invited"}</p>
+        <p>{!password && password.length >= 3 ? '' : "Sorry, as much as we wouldd love to invite everyone. You weren not invited"}</p>
       </div>
     </section>
   )

@@ -33,8 +33,9 @@ export default function ToStay() {
               width={500}
               height={500}
             />
+
             <h1 className="text-xl mt-6 mb-2">The Thompson</h1>
-            <p>Design meets urban luxury at our boutique Buckhead hotel - A Hyatt property. An enviable address in one of Atlanta's most desirable neighborhoods - Buckhead is known for its luxury shopping boutiques, lively nightclubs, and trendy eateries. Thompson Buckhead is an urban retreat that seamlessly blends modern innovation and influential design. Take in a new view of the Atlanta skyline at the rooftop pool deck, outfitted with private cabanas, mingle over cocktails in our jewel box lobby bar, and indulge in classic Italian-American fare at Dirty Rascal.</p>
+            <p>Design meets urban luxury at our boutique Buckhead hotel - A Hyatt property. An enviable address in one of Atlanta&lsquo;s most desirable neighborhoods - Buckhead is known for its luxury shopping boutiques, lively nightclubs, and trendy eateries. Thompson Buckhead is an urban retreat that seamlessly blends modern innovation and influential design. Take in a new view of the Atlanta skyline at the rooftop pool deck, outfitted with private cabanas, mingle over cocktails in our jewel box lobby bar, and indulge in classic Italian-American fare at Dirty Rascal.</p>
             <a href="#" className="my-4 flex items-center">Reserve hotel room block &nbsp; <HiOutlineChevronRight /></a>         
           </section>
           <section className="col-span-6">
@@ -45,7 +46,7 @@ export default function ToStay() {
               height={372}
             />
             <h1 className="text-xl mt-6 mb-2">The Kimpton Sylvan</h1>
-            <p>Mid-Century Hotel - An IHG Property. Welcome to Kimpton Sylvan Hotel, an unexpected oasis tucked away in Atlanta’s Buckhead area, aka “The Beverly Hills of the South.” We’ve transformed a sprawling 1950s residential building into a boutique enclave. Mid-century style and modern-chic design cavort effortlessly throughout the space, from the supper club-style restaurant to the cheeky rooftop bar (voted one of Esquire's Best Bars in America in 2022). Outside, nearly 5,000 square feet of gardens lure you with hidden nooks, plus a sparkling pool. Here, just steps from high-style shopping, dining, galleries and nightlife, Georgia hospitality is warm and estive all at once.</p>
+            <p>Mid-Century Hotel - An IHG Property. Welcome to Kimpton Sylvan Hotel, an unexpected oasis tucked away in Atlanta’s Buckhead area, aka “The Beverly Hills of the South.” We’ve transformed a sprawling 1950s residential building into a boutique enclave. Mid-century style and modern-chic design cavort effortlessly throughout the space, from the supper club-style restaurant to the cheeky rooftop bar (voted one of Esquire&lsquo;s Best Bars in America in 2022). Outside, nearly 5,000 square feet of gardens lure you with hidden nooks, plus a sparkling pool. Here, just steps from high-style shopping, dining, galleries and nightlife, Georgia hospitality is warm and estive all at once.</p>
             <a href="#" className="my-4 flex items-center">Reserve hotel room block &nbsp; <HiOutlineChevronRight /></a>
           </section>
         </section>
