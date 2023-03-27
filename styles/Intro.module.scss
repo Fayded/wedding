@@ -1,0 +1,64 @@
+@import './variables.module.scss';
+
+@font-face {
+  font-family: 'Adinda Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Adinda Regular'), url('../pages/assets/Adinda.woff') format('woff');
+}
+
+.intro {
+  border: 10px solid $primary-color;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Adinda Regular';
+  font-size: 30rem;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  text-align: center;
+  text-shadow: inset 0px 12px 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+.formButton {
+  position: relative;
+  display: flex;
+  border: 1px solid white;
+  width: auto;
+  position: relative;
+
+  input {
+    border-right: 0;
+    background: 0;
+    padding: 10px;
+    color: white;
+    outline: 0;
+    font-weight: 700;
+  }
+
+  a {
+    color: white;
+    display: flex;
+    border-left: 1px solid white;
+    background: black;
+    height: 44px;
+    width: 44px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}
