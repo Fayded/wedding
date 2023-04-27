@@ -7,6 +7,7 @@ import ToStay from '../components/ToStay'
 import ToEat from '../components/ToEat'
 import Registry from '../components/Registry'
 import Attire from '../components/Attire'
+import Wedding from '../components/Wedding'
 import styles from '@/styles/Home.module.scss'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
@@ -22,12 +23,13 @@ export default function Home() {
       </Head>
       <main>
         <Intro />
-        <WeekendEvents />
+        <Wedding />
         <ToStay />
+        <WeekendEvents />
         <ToEat />
         <ToDo />
-        <Registry />
-        <Attire />
+        {/* <Registry /> */}
+        {/* <Attire /> */}
       </main>
     </>
   )

@@ -25,8 +25,7 @@ export default function Intro() {
   return (
     <section className="flex items-center justify-center">
       <div className="container items-center">
-        <h1 className={styles.title}>Love</h1>
-        <div className="container items-center grid grid-cols-6 gap-16">
+      <div className="container items-center grid grid-cols-6 gap-16">
           <section className="col-span-2">
             <aside className={styles.formButton}>
               <input ref={inputRef} />
@@ -34,8 +33,9 @@ export default function Intro() {
             </aside>
           </section>
         </div>
+        <h1 className={styles.title}>Love</h1>
         <br />
-        <p>{!password && password.length >= 3 ? '' : "Sorry, as much as we wouldd love to invite everyone. You weren not invited"}</p>
+        {/* <p>{!password && password.length >= 3 ? '' : "Sorry, as much as we wouldd love to invite everyone. You weren not invited"}</p> */}
       </div>
     </section>
   )
