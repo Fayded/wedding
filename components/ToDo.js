@@ -9,7 +9,7 @@ export default function ToDo() {
         <h1 className="text-7xl my-20 text-center col-span-12 uppercase tracking-widest">To Do in ATL</h1>
       </div>
       <section className="container">
-        <h1 className='my-8 text-2xl'>Wellness &amp; Fitness</h1>
+        <h1 className="my-8 text-2xl">Wellness &amp; Fitness</h1>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
@@ -21,7 +21,7 @@ export default function ToDo() {
           />
 
           <h1 className="text-xl mt-6 mb-2">Chastain Park</h1>
-          <p>Buckhead's premier park featuring a 2.5 mile walking trail with tennis and pickleball courts</p>
+          <p>Buckhead&apos;s premier park featuring a 2.5 mile walking trail with tennis and pickleball courts</p>
           <a href="https://www.buckhead.com/neighborhoods/chastain-park/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>         
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
@@ -45,7 +45,7 @@ export default function ToDo() {
             height={408}
           />
 
-          <h1 className="text-xl mt-6 mb-2">Barry's bootcamp</h1>
+          <h1 className="text-xl mt-6 mb-2">Barry&apos;s bootcamp</h1>
           <p>Located in Buckhead Village District, the original high intensity interval workout with a combination of running and weights</p>
           <a href="https://www.bodycentralpilates.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>         
         </section>
@@ -57,12 +57,12 @@ export default function ToDo() {
             height={408}
           />
           <h1 className="text-xl mt-6 mb-2">St Regis Spa</h1>
-          <p>Buckhead's premier park featuring a 2.5 mile walking trail with tennis and pickleball courts</p>
+          <p>Buckhead&apos;s premier park featuring a 2.5 mile walking trail with tennis and pickleball courts</p>
           <a href="https://www.buckhead.com/neighborhoods/chastain-park/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
       </section>
       <section className="container">
-        <h1 className='my-8 text-2xl'>Shopping</h1>
+        <h1 className="my-8 text-2xl">Shopping</h1>
       </section>
       <section className="grid grid-cols-6 gap-16 items-center container">
         <div className="col-span-12 md:col-span-4 mb-8">
@@ -80,19 +80,19 @@ export default function ToDo() {
         </section>
       </section>
       <section className="grid grid-cols-12 gap-16 items-center container">
-        <div className="col-span-12 md:col-span-6 mb-8">
+        <div className="col-span-12 md:col-span-6 my-8">
           <h1 className="text-xl mb-2">The Lenox Mall</h1>
           <p className="mb-2">3393 Peachtree Rd NE, Atlanta, GA 30326</p>
-          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale's <a href="https://www.buckheadvillagedistrict.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a></p>
+          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s <a href="https://www.buckheadvillagedistrict.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a></p>
         </div>
-        <div className="col-span-12 md:col-span-6 mb-8">
+        <div className="col-span-12 md:col-span-6 my-8">
           <h1 className="text-xl mb-2">Phipps Plaza</h1>
           <p className="mb-2">3500 Peachtree Rd NE, Atlanta, GA 30326</p>
-          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale's <a href="https://www.buckheadvillagedistrict.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a></p>
+          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s <a href="https://www.buckheadvillagedistrict.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a></p>
         </div>
       </section>
       <section className="container">
-        <h1 className='mt-4 mb-6 text-2xl'>Landmarks</h1>
+        <h1 className="mt-4 mb-6 text-2xl">Landmarks</h1>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
