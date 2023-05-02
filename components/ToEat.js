@@ -33,7 +33,7 @@ export default function ToEat() {
         </div>
         <div className="col-span-12 md:col-span-2">
           <Image
-            src="/storicoVino.jpg"
+            src="/storico-vino.jpg"
             alt="Storico Vino"
             width={384}
             height={250}
@@ -70,7 +70,7 @@ export default function ToEat() {
         </div>
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
-            src="/leBilboquet.jpg"
+            src="/le-bilboquet.jpg"
             alt="Le Bilboquet"
             width={384}
             height={250}
