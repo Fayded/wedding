@@ -13,7 +13,7 @@ export default function ToEat() {
       <section className="grid grid-cols-6 gap-16 items-top container">
         <div className="col-span-2 md:col-span-2">
           <Image
-            src="/umi.jpg"
+            src="/umi-min.jpg"
             alt="Umi"
             width={384}
             height={250}
@@ -23,7 +23,7 @@ export default function ToEat() {
         </div>
         <div className="col-span-12 md:col-span-2">
           <Image
-            src="/st-cecilias.jpg"
+            src="/st-cecilias-min.jpg"
             alt="St Cecilia"
             width={384}
             height={250}
@@ -33,7 +33,7 @@ export default function ToEat() {
         </div>
         <div className="col-span-12 md:col-span-2">
           <Image
-            src="/storicoVino.jpg"
+            src="/storicoVino-min.jpg"
             alt="Storico Vino"
             width={384}
             height={250}
@@ -49,7 +49,7 @@ export default function ToEat() {
           </section>
           <div className="col-span-12 md:col-span-4 mb-16">
             <Image
-              src="/garden-room.jpg"
+              src="/garden-room-min.jpg"
               alt="Garden Room"
               width={500}
               height={500}
@@ -60,7 +60,7 @@ export default function ToEat() {
         <section className="grid grid-cols-6 gap-16 items-top container">
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
-            src="/superica.jpg"
+            src="/superica-min.jpg"
             alt="Superica"
             width={384}
             height={250}
@@ -70,7 +70,7 @@ export default function ToEat() {
         </div>
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
-            src="/leBilboquet.jpg"
+            src="/leBilboquet-min.jpg"
             alt="Le Bilboquet"
             width={384}
             height={250}
@@ -80,7 +80,7 @@ export default function ToEat() {
         </div>
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
-            src="/atlas.jpg"
+            src="/atlas-min.jpg"
             alt="Atlas"
             width={384}
             height={250}

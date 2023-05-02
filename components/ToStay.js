@@ -13,7 +13,7 @@ export default function ToStay() {
       <section className="grid grid-cols-6 gap-16 items-center container">
         <div className="col-span-4 mb-16">
           <Image
-            src="/stregis1.jpg"
+            src="/stregis1-min.jpg"
             alt="St Regis"
             width={500}
             height={500}
@@ -28,7 +28,7 @@ export default function ToStay() {
         <section className="container justify-center grid grid-cols-12 gap-16">
           <section className="col-span-6">
             <Image
-              src="/thompson.jpg"
+              src="/thompson-min.jpg"
               alt="The Thompson"
               width={500}
               height={500}
@@ -40,7 +40,7 @@ export default function ToStay() {
           </section>
           <section className="col-span-6">
             <Image
-              src="/kympton.jpg"
+              src="/kympton-min.jpg"
               alt="The Kympton Sylvan"
               width={608}
               height={372}
