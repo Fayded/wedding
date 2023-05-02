@@ -11,7 +11,7 @@ export default function WeekendEvents() {
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-6 mb-16">
           <Image
-            src="/church-min.jpg"
+            src="/church.jpg"
             alt="Christ the King"
             width={500}
             height={500}
@@ -22,7 +22,7 @@ export default function WeekendEvents() {
         </section>
         <section className="col-span-6 mb-16">
           <Image
-            src="/kympton-min.jpg"
+            src="/kympton.jpg"
             alt="The Kympton Sylvan"
             width={608}
             height={372}
@@ -34,7 +34,7 @@ export default function WeekendEvents() {
       <section className="grid grid-cols-6 gap-16 items-center container">
         <div className="col-span-4">
           <Image
-            src="/stregis-min.jpg"
+            src="/st-regis.jpg"
             alt="St Regis"
             width={500}
             height={500}
