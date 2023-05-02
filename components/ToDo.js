@@ -104,7 +104,7 @@ export default function ToDo() {
           />
 
           <h1 className="text-xl mt-6 mb-2">Ponce City Market</h1>
-          <p>Nestled in the Old Fourth Ward along the "Atlanta BeltLine" Eastside Trail, a market with a food hall, shops, and famous rooftop views and entertainment</p>
+          <p>Nestled in the Old Fourth Ward along the &quot;Atlanta BeltLine&quot; Eastside Trail, a market with a food hall, shops, and famous rooftop views and entertainment</p>
           <a href="https://www.poncecitymarket.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>         
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
