@@ -7,7 +7,7 @@ export default function Wedding() {
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-6 mb-16">
           <Image
-            src="/church.jpg"
+            src="/church-min.jpg"
             alt="Christ the King"
             width={500}
             height={500}
@@ -18,7 +18,7 @@ export default function Wedding() {
         </section>
         <section className="col-span-6 mb-16">
           <Image
-            src="/kympton.jpg"
+            src="/kympton-min.jpg"
             alt="The Kympton Sylvan"
             width={608}
             height={372}
