@@ -14,7 +14,7 @@ export default function ToDo() {
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
-            src="/chastain-min.jpg"
+            src="/chastain.jpg"
             alt="Chastain Park"
             width={608}
             height={405}
@@ -26,7 +26,7 @@ export default function ToDo() {
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
-            src="/bobbyJones-min.jpg"
+            src="/bobbyJones.jpg"
             alt="Bobby Jones Golf Course"
             width={608}
             height={405}
@@ -39,7 +39,7 @@ export default function ToDo() {
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
-            src="/barrys-min.jpg"
+            src="/barrys.jpg"
             alt="Barrys bootcamp"
             width={608}
             height={408}
@@ -51,7 +51,7 @@ export default function ToDo() {
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
-            src="/stRegisSpa-min.jpg"
+            src="/stRegisSpa.jpg"
             alt="St Regis Spa"
             width={608}
             height={408}
@@ -67,7 +67,7 @@ export default function ToDo() {
       <section className="grid grid-cols-6 gap-16 items-center container">
         <div className="col-span-12 md:col-span-4 mb-8">
           <Image
-            src="/buckheadVillage-min.jpg"
+            src="/buckheadVillage.jpg"
             alt="Buckhead Village"
             width={500}
             height={500}
@@ -97,7 +97,7 @@ export default function ToDo() {
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
-            src="/ponceCity-min.jpg"
+            src="/ponceCity.jpg"
             alt="Ponce City Market"
             width={608}
             height={405}
@@ -109,7 +109,7 @@ export default function ToDo() {
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
-            src="/botanical-min.jpg"
+            src="/botanical.jpg"
             alt="Botanical Gardens"
             width={608}
             height={405}
@@ -123,7 +123,7 @@ export default function ToDo() {
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
-            src="/highMuseum-min.jpg"
+            src="/highMuseum.jpg"
             alt="High Museum"
             width={500}
             height={500}
@@ -134,7 +134,7 @@ export default function ToDo() {
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
-            src="/history-min.jpg"
+            src="/history.jpg"
             alt="Atlanta History Museum"
             width={500}
             height={500}
