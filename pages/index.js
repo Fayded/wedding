@@ -61,14 +61,12 @@ export default function Home() {
           <h1 className={styles.title}>Love</h1>
         </div>
       </section>
-      { password && 
-        <>
-          <ToStay />
-          <WeekendEvents />
-          <ToEat />
-          <ToDo />
-        </>
-      }
+      <WeekendEvents />
+      <ToStay />
+      <ToEat />
+      <ToDo />
+        {/* <Registry /> */}
+        {/* <Attire /> */}
       </main>
     </>
   )

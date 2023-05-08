@@ -44,8 +44,7 @@ export default function ToEat() {
         <section className="grid grid-cols-6 gap-16 items-center container">
           <section className="col-span-12 md:col-span-2 mb-8">
             <h1 className="text-xl mb-2">The Garden Room</h1>
-            <p className="mb-2">Located in the St. Regis, a chic restaurant serving New American cuisine &amp; cocktails in a plant-filled space with a glass roof</p>
-            <a href="https://thegardenroomatlanta.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
+            <p className="mb-2">Located in the St. Regis, a chic restaurant serving New American cuisine &amp; cocktails in a plant-filled space with a glass roof.</p>
           </section>
           <div className="col-span-12 md:col-span-4 mb-16">
             <Image

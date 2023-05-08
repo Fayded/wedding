@@ -12,7 +12,7 @@ export default function WeekendEvents() {
         <p>03.15.2024</p>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
-        <section className="col-span-12 md:col-span-6 mb-8">
+        <section className="col-span-12 md:col-span-4 mb-8">
           <h1 className="text-xl mt-6 mb-2">Rehearsal</h1>
           <p className="pb-6">Christ the King
             <br />415 East Paces Ferry Rd NE, 
@@ -25,7 +25,7 @@ export default function WeekendEvents() {
             height={390}
           />       
         </section>
-        <section className="col-span-12 md:col-span-6 mb-8">
+        <section className="col-span-12 md:col-span-4 mb-8">
           <h1 className="text-xl mt-6 mb-2">Rehearsal Dinner</h1>
           <p className="pb-6">Le Colonial
             <br />3035 Peachtree Rd NE 
@@ -38,8 +38,21 @@ export default function WeekendEvents() {
             height={390}
           />
         </section>
+        <section className="col-span-12 md:col-span-4 mb-8">
+          <h1 className="text-xl mt-6 mb-2">Welcome Party</h1>
+          <p className="pb-6">Le Colonial
+            <br />3035 Peachtree Rd NE 
+            <br />Atlanta, Georgia 30305
+          </p>
+          <Image
+            src="/le-colonial.jpg"
+            alt="Le Colonial"
+            width={608}
+            height={390}
+          />
+        </section>
       </section>
-      <section className="grid grid-cols-12 gap-16 items-center container">
+      {/* <section className="grid grid-cols-12 gap-16 items-center container">
         <section className="col-span-6">
           <h1 className="text-xl mb-2">Welcome Party</h1>
           <p className="pb-6">Le Colonial
@@ -50,13 +63,13 @@ export default function WeekendEvents() {
         </section>
         <div className="col-span-6">
           <Image
-            src="/st-regis.jpg"
+            src="/le-colonial.jpg"
             alt="St Regis"
             width={500}
             height={370}
           />
         </div>
-      </section>
+      </section> */}
       <section className="grid grid-cols-12 gap-16 items-center container">
         <div className="col-span-6 mb-8">
           <Image
