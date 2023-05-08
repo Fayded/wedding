@@ -1,29 +1,8 @@
-import React, {useRef, useState, useEffect} from 'react'
+import React from 'react'
 import styles from '@/styles/Intro.module.scss'
 import { HiOutlineChevronRight } from 'react-icons/hi'
 
 export default function Intro() {
-  let inputRef = useRef(null);
-  const [password, setPassword] = useState(false)
-
-  const handleClick = async (e) => {
-    e.preventDefault()
-    try {
-      const res = await fetch('/api/password', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(inputRef.current.value),
-      }).then((response) => response.json())
-      .then((data) => {
-        setPassword(data.pw)
-      });
-    } catch (err) {
-        setPassword('')
-    }
-  }
-
   return (
     <section className="flex items-center justify-center">
       <div className="container items-center">

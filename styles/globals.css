@@ -54,9 +54,14 @@ main > section:first-child {
   padding-top: 0px;
 }
 
-main > section:nth-child(2n) {
+main > section:nth-child(2n + 1) {
   background: white;
   color: black;
+}
+
+main > section:first-child {
+  background: black;
+  color: white;
 }
 
 .container {

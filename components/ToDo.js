@@ -57,8 +57,8 @@ export default function ToDo() {
             height={408}
           />
           <h1 className="text-xl mt-6 mb-2">St Regis Spa</h1>
-          <p>Buckhead&apos;s premier park featuring a 2.5 mile walking trail with tennis and pickleball courts</p>
-          <a href="https://www.buckhead.com/neighborhoods/chastain-park/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
+          <p>State-of-the-art spa which takes the words luxury and high-end to another level with its attention to detail and pampering that starts the moment guests arrive <a href="https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/experiences/" target="_blank" className="my-4 inline-block items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
+</p>
         </section>
       </section>
       <section className="container">
