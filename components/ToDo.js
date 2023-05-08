@@ -6,7 +6,7 @@ export default function ToDo() {
   return (
     <section className="toDo">
       <div className="container">
-        <h1 className="text-7xl my-20 text-center col-span-12 uppercase tracking-widest">To Do in ATL</h1>
+        <h1 className="text-7xl my-20 text-center col-span-12 uppercase tracking-widest">Do in ATL</h1>
       </div>
       <section className="container">
         <h1 className="my-8 text-2xl">Wellness &amp; Fitness</h1>
@@ -17,7 +17,7 @@ export default function ToDo() {
             src="/chastain.jpg"
             alt="Chastain Park"
             width={608}
-            height={405}
+            height={390}
           />
 
           <h1 className="text-xl mt-6 mb-2">Chastain Park</h1>
@@ -29,7 +29,7 @@ export default function ToDo() {
             src="/bobby-jones.jpg"
             alt="Bobby Jones Golf Course"
             width={608}
-            height={405}
+            height={390}
           />
           <h1 className="text-xl mt-6 mb-2">Bobby Jones Golf Course</h1>
           <p>Distinguished public golf course design featuring multiple tees and large double greens</p>
@@ -83,12 +83,12 @@ export default function ToDo() {
         <div className="col-span-12 md:col-span-6 my-8">
           <h1 className="text-xl mb-2">The Lenox Mall</h1>
           <p className="mb-2">3393 Peachtree Rd NE, Atlanta, GA 30326</p>
-          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s <a href="https://www.buckheadvillagedistrict.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a></p>
+          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s</p>
         </div>
         <div className="col-span-12 md:col-span-6 my-8">
           <h1 className="text-xl mb-2">Phipps Plaza</h1>
           <p className="mb-2">3500 Peachtree Rd NE, Atlanta, GA 30326</p>
-          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s <a href="https://www.buckheadvillagedistrict.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a></p>
+          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s</p>
         </div>
       </section>
       <section className="container">
@@ -100,7 +100,7 @@ export default function ToDo() {
             src="/ponce-city.jpg"
             alt="Ponce City Market"
             width={608}
-            height={405}
+            height={370}
           />
 
           <h1 className="text-xl mt-6 mb-2">Ponce City Market</h1>
@@ -112,7 +112,7 @@ export default function ToDo() {
             src="/botanical.jpg"
             alt="Botanical Gardens"
             width={608}
-            height={405}
+            height={390}
           />
 
           <h1 className="text-xl mt-6 mb-2">Botanical Gardens</h1>
@@ -125,8 +125,8 @@ export default function ToDo() {
           <Image
             src="/high-museum.jpg"
             alt="High Museum"
-            width={500}
-            height={500}
+            width={608}
+            height={370}
           />
           <h1 className="text-xl mt-6 mb-2">High Museum</h1>
           <p className="mb-2">From nineteenth-century sculpture to contemporary folk art, the seven themed collections include more than 18,000 works of art from around the world</p>
@@ -134,10 +134,10 @@ export default function ToDo() {
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
-            src="/history.jpg"
+            src="/atlanta-history.jpg"
             alt="Atlanta History Museum"
-            width={500}
-            height={500}
+            width={608}
+            height={370}
           />
           <h1 className="text-xl mt-6 mb-2">Atlanta History Museum</h1>
           <p className="mb-2">Our museum atrium serves as a hub for all things Atlanta History Center. From here, you’ll explore award-winning exhibitions highlighting some of the Atlanta’s most important moments, people, and artifacts.</p>

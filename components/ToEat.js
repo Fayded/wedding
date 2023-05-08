@@ -51,8 +51,8 @@ export default function ToEat() {
             <Image
               src="/garden-room.jpg"
               alt="Garden Room"
-              width={500}
-              height={500}
+              width={828}
+              height={550}
             />
           </div>
         </section>
