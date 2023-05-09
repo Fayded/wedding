@@ -8,8 +8,7 @@ import ToStay from '../components/ToStay'
 import ToEat from '../components/ToEat'
 import { HiOutlineChevronRight } from 'react-icons/hi'
 import styles from '@/styles/Intro.module.scss'
-
-// import Registry from '../components/Registry'
+import Registry from '../components/Registry'
 // import Attire from '../components/Attire'
 // import Wedding from '../components/Wedding'
 // import styles from '@/styles/Home.module.scss'
@@ -65,7 +64,7 @@ export default function Home() {
       <ToStay />
       <ToEat />
       <ToDo />
-        {/* <Registry /> */}
+      <Registry />
         {/* <Attire /> */}
       </main>
     </>

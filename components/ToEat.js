@@ -7,6 +7,7 @@ export default function ToEat() {
     <section className="toEat">
       <section className="container justify-center items-center grid grid-cols-12">
         <h1 className="text-7xl my-20 text-center col-span-12 uppercase tracking-widest">Eat in ATL</h1>
+        <p className="mb-14 col-span-8 col-start-3 text-center">Favorite eateries of the bride and groom, within a 2-mile radius of the preferred hotels.</p>
       </section>
       <section className="grid grid-cols-6 gap-16 items-top container">
         <div className="col-span-2 md:col-span-2 mb-8">
@@ -17,7 +18,7 @@ export default function ToEat() {
             height={250}
           />
           <h2 className="text-md mt-4 mb-2"><a href="https://umiatlanta.com/" target="_blank">Umi</a></h2>
-          <p>Located in the St. Regis courtyard, a stylish haunt serving sushi &amp; other sophisticated Japanese fare in an airy, contemporary setting.</p>
+          <p>Located in the St. Regis courtyard, a stylish haunt serving sushi and other sophisticated Japanese fare in an airy, contemporary setting.</p>
         </div>
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
@@ -49,7 +50,7 @@ export default function ToEat() {
             height={250}
           />
           <h2 className="text-md mt-4 mb-2"><a href="https://thegardenroomatlanta.com/" target="_blank">Garden Room</a></h2>
-          <p>Located in the St. Regis, a chic restaurant serving New American cuisine &amp; cocktails in a plant-filled space with a glass roof.</p>
+          <p>Located in the St. Regis, a chic restaurant serving New American cuisine and cocktails in a plant-filled space with a glass roof.</p>
         </div>
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
@@ -59,16 +60,16 @@ export default function ToEat() {
             height={250}
           />
           <h2 className="text-md mt-4 mb-2"><a href="https://bistroniko.com/" target="_blank">Bistro Niko</a></h2>
-          <p>Bustling hot spot presents classic French bistro fare amid warm lighting &amp; elegant decor.</p>
+          <p>Bustling hot spot presents classic French bistro fare amid warm lighting and elegant decor.</p>
         </div>
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
             src="/bar-taco.jpg"
-            alt="Bar Taco"
+            alt="Bartaco"
             width={384}
             height={250}
           />
-          <h2 className="text-md mt-4 mb-2"><a href="https://bartaco.com/location/atlanta-chastain/" target="_blank">Bar Taco</a></h2>
+          <h2 className="text-md mt-4 mb-2"><a href="https://bartaco.com/location/atlanta-chastain/" target="_blank">Bartaco</a></h2>
           <p>Trendy restaurant with a casual vibe serving classic Mexican dishes.</p>
         </div>
       </section>

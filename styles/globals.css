@@ -59,6 +59,11 @@ main > section:nth-child(2n) {
   color: black;
 }
 
+main > section:last-child {
+  background: black;
+  color: white;
+}
+
 .container {
   width: 1280px;
   margin: 0 auto;

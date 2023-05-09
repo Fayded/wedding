@@ -8,7 +8,7 @@ export default function WeekendEvents() {
         <h1 className="text-7xl text-center col-span-12 uppercase tracking-widest my-20">Weekend Events in ATL</h1>
       </section>
       <section className="container">
-      <p className="mt-10 mb-6"><span className="mr-4">The Wedding Day</span>|<span className="mx-4">March 16th, 2024</span>|<span className="mx-4">Gowns &amp; Tuxes</span></p>
+      <p className="mt-10 mb-6"><span className="mr-4">The Wedding Night</span>|<span className="mx-4">March 16th, 2024</span>|<span className="mx-4">Gowns &amp; Tuxes</span></p>
       </section>
       <section className="grid grid-cols-12 gap-16 items-start container">
         <div className="col-span-12 md:col-span-6 mb-8">
@@ -36,7 +36,7 @@ export default function WeekendEvents() {
         </div>
       </section>
       <section className="container">
-        <p className="mt-4 mb-6"><span className="mr-4">The Day Before</span>|<span className="mx-4">March 15th, 2024</span>|<span className="mx-4">Cocktail Attire</span></p>
+        <p className="mt-4 mb-6"><span className="mr-4">The Night Before</span>|<span className="mx-4">March 15th, 2024</span>|<span className="mx-4">Cocktail Attire</span></p>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-4 mb-8">
@@ -48,7 +48,7 @@ export default function WeekendEvents() {
           />       
           <h1 className="text-xl mt-6 mb-2">The Rehearsal</h1>
           <p className="pb-6">Cathedral of Christ the King
-            <br />5 o&apos;clock PM
+            <br />5 O&apos;Clock PM
             <br />
             <span className="text-xs">* Invite only</span>
           </p>
@@ -62,7 +62,7 @@ export default function WeekendEvents() {
           />
           <h1 className="text-xl mt-6 mb-2">The Rehearsal Dinner</h1>
           <p className="pb-6">Le Colonial
-            <br />6 o&apos;clock PM
+            <br />6 O&apos;Clock PM
             <br />
             <span className="text-xs">* Invite only</span>
           </p>
@@ -76,7 +76,7 @@ export default function WeekendEvents() {
           />
           <h1 className="text-xl mt-6 mb-2">The Welcome Party</h1>
           <p className="pb-6">Le Colonial
-            <br />8 - 10 o&apos;clock PM
+            <br />8 - 10 O&apos;Clock PM
             <br />
             <span className="text-xs">* Out of town guests only</span>
           </p>

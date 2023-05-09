@@ -7,9 +7,10 @@ export default function ToDo() {
     <section className="toDo">
       <div className="container">
         <h1 className="text-7xl my-20 text-center col-span-12 uppercase tracking-widest">Do in ATL</h1>
+        <p className="mb-14 col-span-8 col-start-3 text-center">Activities and attractions to explore during an ATL stay.</p>
       </div>
       <section className="container">
-        <h1 className="mt-4 mb-6 text-2xl">Wellness &amp; Fitness</h1>
+        <h1 className="mt-4 mb-6 text-2xl">Wellness and Fitness</h1>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
@@ -51,11 +52,11 @@ export default function ToDo() {
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
             src="/st-regis-spa.jpg"
-            alt="St Regis Spa"
+            alt="St. Regis Spa"
             width={608}
             height={408}
           />
-          <h1 className="text-xl mt-6 mb-2">St Regis Spa</h1>
+          <h1 className="text-xl mt-6 mb-2">St. Regis Spa</h1>
           <p>From lush surroundings to precious ingredients, every aspect of the spa sanctuary is custom created to captivate and celebrate.</p>
           <a href="https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/experiences/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
@@ -81,8 +82,8 @@ export default function ToDo() {
               width={384}
               height={250}
           />
-          <h1 className="text-xl mt-6 mb-2">The Lenox Square Mall</h1>
-          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s</p>
+          <h1 className="text-xl mt-6 mb-2">Lenox Square Mall</h1>
+          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping mall with anchor stores of Neiman Marcus and Bloomingdale&apos;s.</p>
         </div>
         <div className="col-span-12 md:col-span-4">
           <Image
@@ -92,7 +93,7 @@ export default function ToDo() {
               height={250}
           />
           <h1 className="text-xl mt-6 mb-2">Phipps Plaza</h1>
-          <p className="mb-2">Located catty-corner to Lenox Square Mall, shopping mall with anchor stores of Saks Fifth Avenue &amp; Nordstrom.</p>
+          <p className="mb-2">Located catty-corner to Lenox Square Mall, shopping mall with anchor stores of Saks Fifth Avenue and Nordstrom.</p>
         </div>
       </section>
       <section className="container">
@@ -108,7 +109,7 @@ export default function ToDo() {
           />
 
           <h1 className="text-xl mt-6 mb-2">Ponce City Market</h1>
-          <p>Nestled in the Old Fourth Ward along the &quot;Atlanta BeltLine&quot; Eastside Trail, a market with a food hall, shops, and famous rooftop views and entertainment</p>
+          <p>Nestled in the Old Fourth Ward along the &quot;Atlanta BeltLine&quot; Eastside Trail, a market with a food hall, shops, and famous rooftop views and entertainment.</p>
           <a href="https://www.poncecitymarket.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>         
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
@@ -120,7 +121,7 @@ export default function ToDo() {
           />
 
           <h1 className="text-xl mt-6 mb-2">Botanical Gardens</h1>
-          <p>An urban oasis in Midtown boasting thirty acres of display gardens and shady woodlands featuring extensive plant and flower collections</p>
+          <p>An urban oasis in Midtown boasting thirty acres of display gardens and shady woodlands featuring extensive plant and flower collections.</p>
           <a href="https://atlantabg.org/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>         
         </section>
       </section>
@@ -133,7 +134,7 @@ export default function ToDo() {
             height={370}
           />
           <h1 className="text-xl mt-6 mb-2">High Museum</h1>
-          <p className="mb-2">From nineteenth-century sculpture to contemporary folk art, the seven themed collections include more than 18,000 works of art from around the world</p>
+          <p className="mb-2">From nineteenth-century sculpture to contemporary folk art, the seven themed collections include more than 18,000 works of art from around the world.</p>
           <a href="https://high.org/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
