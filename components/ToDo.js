@@ -68,7 +68,7 @@ export default function ToDo() {
               width={384}
               height={250}
           />
-          <h1 className="text-xl mt-6 mb-2">Buckhead Village District</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="http://buckheadvillagedistrict.com/" target="_blank">Buckhead Village District</a></h1>
           <p className="mb-2">Outdoor shopping and dining destination featuring high-end retail and global cuisines.</p>
         </div>
         <div className="col-span-12 md:col-span-4">
@@ -78,7 +78,7 @@ export default function ToDo() {
               width={384}
               height={250}
           />
-          <h1 className="text-xl mt-6 mb-2">Lenox Square Mall</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://www.simon.com/mall/lenox-square" target="_blank">Lenox Square Mall</a></h1>
           <p className="mb-2">Located catty-corner to Phipps Plaza, shopping mall with anchor stores of Neiman Marcus and Bloomingdale&apos;s.</p>
         </div>
         <div className="col-span-12 md:col-span-4">
@@ -88,7 +88,7 @@ export default function ToDo() {
               width={384}
               height={250}
           />
-          <h1 className="text-xl mt-6 mb-2">Phipps Plaza</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://www.simon.com/mall/phipps-plaza" target="_blank">Phipps Plaza</a></h1>
           <p className="mb-2">Located catty-corner to Lenox Square Mall, shopping mall with anchor stores of Saks Fifth Avenue and Nordstrom.</p>
         </div>
       </section>
@@ -137,7 +137,7 @@ export default function ToDo() {
             width={608}
             height={370}
           />
-          <h1 className="text-xl mt-6 mb-2"><a href="https://high.org/" target="_blank">Atlanta History Museum</a></h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://www.atlantahistorycenter.com/buildings-and-grounds/atlanta-history-museum/" target="_blank">Atlanta History Museum</a></h1>
           <p className="mb-2">The museum atrium serves as a hub for all things Atlanta History Center. From here, explore award-winning exhibitions highlighting some of the Atlanta&apos;s most important moments, people, and artifacts.</p>
         </section>
       </section>
