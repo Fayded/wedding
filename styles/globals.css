@@ -50,6 +50,10 @@ main > section {
   padding: 80px 0;
 }
 
+main > section:last-child {
+  min-height: auto;
+}
+
 main > section:first-child {
   padding-top: 0px;
 }
@@ -57,11 +61,6 @@ main > section:first-child {
 main > section:nth-child(2n) {
   background: white;
   color: black;
-}
-
-main > section:last-child {
-  background: black;
-  color: white;
 }
 
 .container {
@@ -80,17 +79,4 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   letter-spacing: 0.5px
-}
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: lightgray;
-  opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: lightgray;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-  color: lightgray;
 }
