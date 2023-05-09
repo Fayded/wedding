@@ -10,7 +10,7 @@ export default function Intro() {
           <div className="container items-center grid grid-cols-6 gap-16">
             <section className="col-span-2">
               <aside className={styles.formButton}>
-                <input ref={inputRef} />
+                <input type="text" ref={inputRef} placeholder="Password" />
                 <a href="#" onClick={(e) => handleClick(e)}><HiOutlineChevronRight /></a>
               </aside>
             </section>

@@ -96,7 +96,7 @@ export default function ToDo() {
         <h1 className="mt-4 mb-6 text-2xl">Landmarks</h1>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
-        <section className="col-span-12 md:col-span-6 mb-8">
+        <section className="col-span-12 md:col-span-6 mb-10">
           <Image
             src="/ponce-city.jpg"
             alt="Ponce City Market"
@@ -107,7 +107,7 @@ export default function ToDo() {
           <h1 className="text-xl mt-6 mb-2"><a href="https://www.poncecitymarket.com/" target="_blank">Ponce City Market</a></h1>
           <p>Nestled in the Old Fourth Ward along the &quot;Atlanta BeltLine&quot; Eastside Trail, a market with a food hall, shops, and famous rooftop views and entertainment.</p>
         </section>
-        <section className="col-span-12 md:col-span-6 mb-8">
+        <section className="col-span-12 md:col-span-6 mb-10">
           <Image
             src="/botanical.jpg"
             alt="Botanical Gardens"
@@ -120,7 +120,7 @@ export default function ToDo() {
         </section>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
-        <section className="col-span-12 md:col-span-6 mb-8">
+        <section className="col-span-12 md:col-span-6 mb-10">
           <Image
             src="/high-museum.jpg"
             alt="High Museum"
@@ -130,7 +130,7 @@ export default function ToDo() {
           <h1 className="text-xl mt-6 mb-2"><a href="https://high.org/" target="_blank">High Museum</a></h1>
           <p className="mb-2">From nineteenth-century sculpture to contemporary folk art, the seven themed collections include more than 18,000 works of art from around the world.</p>
         </section>
-        <section className="col-span-12 md:col-span-6 mb-8">
+        <section className="col-span-12 md:col-span-6 mb-10">
           <Image
             src="/atlanta-history.jpg"
             alt="Atlanta History Museum"
