@@ -7,7 +7,7 @@ export default function ToEat() {
     <section className="toEat">
       <section className="container justify-center items-center grid grid-cols-12">
         <h1 className="text-7xl mt-20 mb-5 text-center col-span-12 uppercase tracking-widest">Eat in ATL</h1>
-        <p className="mb-14 col-span-8 col-start-3 text-center">Favorite eateries of the bride and groom, within a 2-mile radius of the preferred hotels.</p>
+        <p className="mb-14 col-span-8 col-start-3 text-center">Favorite eateries of the bride and groom, all within a 2-mile radius of the preferred hotels.</p>
       </section>
       <section className="grid grid-cols-6 gap-16 items-top container">
         <div className="col-span-2 md:col-span-2 mb-8">

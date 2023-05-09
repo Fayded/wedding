@@ -19,7 +19,7 @@ export default function ToStay() {
           />
         </div>
         <section className="col-span-2 mb-16">
-          <h1 className="text-xl mb-4">The St. Regis</h1>
+          <h1 className="text-xl mb-4"><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1678224045654&key=GRP&app=resvlink" target='_blank'>The St. Regis</a></h1>
           <p className="mb-2">A Luxurious, Regal Hotel - A Marriott Property</p>
           <p>The location of the wedding celebration, guests are highly encouraged to stay at this landmark hotel. Top-ranked The St. Regis Atlanta towers over Buckhead, a city dubbed &apos;The Beverly Hills of the South&apos;. Its impressive European-style architecture, fine custom furnishings and décor, top of the line amenities and impeccable first-class service set a new standard for luxury in Atlanta.</p>
           <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1678224045654&key=GRP&app=resvlink" target='_blank' className="my-4 flex items-center">Reserve the block rate &nbsp; <HiOutlineChevronRight /></a>         
@@ -34,7 +34,7 @@ export default function ToStay() {
               height={370}
             />
 
-            <h1 className="text-xl mt-6 mb-4">The Thompson</h1>
+            <h1 className="text-xl mt-6 mb-4"><a href="https://www.hyatt.com/en-US/group-booking/ATLTH/G-HID0" target='_blank'>The Thompson</a></h1>
             <p className="mb-2">An Urban, Boutique Hotel - A Hyatt Property</p>
             <p>Design meets urban luxury at this boutique Buckhead hotel. Thompson Buckhead is an urban retreat that seamlessly blends modern innovation and influential design. Take in a new view of the Atlanta skyline at the rooftop pool deck, outfitted with private cabanas, mingle over cocktails in our jewel box lobby bar, and indulge in classic Italian-American cuisine from a James Beard nominated chef.</p>
             <a href="https://www.hyatt.com/en-US/group-booking/ATLTH/G-HID0" target='_blank' className="my-4 flex items-center">Reserve the block rate &nbsp; <HiOutlineChevronRight /></a>         
@@ -46,7 +46,7 @@ export default function ToStay() {
               width={608}
               height={370}
             />
-            <h1 className="text-xl mt-6 mb-4">The Kimpton Sylvan</h1>
+            <h1 className="text-xl mt-6 mb-4"><a href="https://www.kimptonhotels.com/redirect?path=asearch&brandCode=KI&localeCode=en&regionCode=1&hotelCode=ATLKM&checkInDate=14&checkInMonthYear=022024&checkOutDate=18&checkOutMonthYear=022024&rateCode=6CBARC&_PMID=99801505&GPC=SEN&cn=no&viewfullsite=true" target='_blank'>The Kimpton Sylvan</a></h1>
             <p className="mb-2">A Mid-Century, Chic Hotel - An IHG Property</p>
             <p>An unexpected oasis tucked away in Atlanta’s posh Buckhead area. Mid-century style and modern-chic design cavort effortlessly throughout the space, from the supper club-style restaurant to the cheeky rooftop bar. Outside, nearly 5,000 square feet of gardens lure you with hidden nooks, plus a sparkling pool. Here, just steps from high-style shopping, dining, galleries and nightlife, Georgia hospitality is warm and estive all at once.</p>
             <a href="https://www.kimptonhotels.com/redirect?path=asearch&brandCode=KI&localeCode=en&regionCode=1&hotelCode=ATLKM&checkInDate=14&checkInMonthYear=022024&checkOutDate=18&checkOutMonthYear=022024&rateCode=6CBARC&_PMID=99801505&GPC=SEN&cn=no&viewfullsite=true" target='_blank' className="my-4 flex items-center">Reserve the block rate &nbsp; <HiOutlineChevronRight /></a>
