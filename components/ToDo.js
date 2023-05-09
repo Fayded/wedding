@@ -9,7 +9,7 @@ export default function ToDo() {
         <h1 className="text-7xl my-20 text-center col-span-12 uppercase tracking-widest">Do in ATL</h1>
       </div>
       <section className="container">
-        <h1 className="my-8 text-2xl">Wellness &amp; Fitness</h1>
+        <h1 className="mt-4 mb-6 text-2xl">Wellness &amp; Fitness</h1>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
@@ -19,10 +19,9 @@ export default function ToDo() {
             width={608}
             height={390}
           />
-
           <h1 className="text-xl mt-6 mb-2">Chastain Park</h1>
-          <p>Buckhead&apos;s premier park featuring a 2.5 mile walking trail with tennis and pickleball courts</p>
-          <a href="https://www.buckhead.com/neighborhoods/chastain-park/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>         
+          <p>Buckhead&apos;s premier park featuring a 2.5 mile walking trail with tennis and pickleball courts.</p>
+          <a href="https://www.buckhead.com/neighborhoods/chastain-park/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
@@ -32,7 +31,7 @@ export default function ToDo() {
             height={390}
           />
           <h1 className="text-xl mt-6 mb-2">Bobby Jones Golf Course</h1>
-          <p>Distinguished public golf course design featuring multiple tees and large double greens</p>
+          <p>Distinguished public golf course design featuring multiple tees and large double greens.</p>
           <a href="https://www.bobbyjonesgc.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
       </section>
@@ -46,8 +45,8 @@ export default function ToDo() {
           />
 
           <h1 className="text-xl mt-6 mb-2">Barry&apos;s bootcamp</h1>
-          <p>Located in Buckhead Village District, the original high intensity interval workout with a combination of running and weights</p>
-          <a href="https://www.bodycentralpilates.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>         
+          <p>Located in Buckhead Village District, the original high intensity interval workout with a combination of running and weights.</p>
+          <a href="https://www.bodycentralpilates.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
@@ -57,38 +56,43 @@ export default function ToDo() {
             height={408}
           />
           <h1 className="text-xl mt-6 mb-2">St Regis Spa</h1>
-          <p>State-of-the-art spa which takes the words luxury and high-end to another level with its attention to detail and pampering that starts the moment guests arrive <a href="https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/experiences/" target="_blank" className="my-4 inline-block items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
-</p>
+          <p>From lush surroundings to precious ingredients, every aspect of the spa sanctuary is custom created to captivate and celebrate.</p>
+          <a href="https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/experiences/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
       </section>
       <section className="container">
-        <h1 className="my-8 text-2xl">Shopping</h1>
+        <h1 className="mt-4 mb-6 text-2xl">Shopping</h1>
       </section>
-      <section className="grid grid-cols-6 gap-16 items-center container">
-        <div className="col-span-12 md:col-span-4 mb-8">
+      <section className="grid grid-cols-12 gap-16 container">
+        <div className="col-span-12 md:col-span-4">
           <Image
-            src="/buckheadVillage.jpg"
-            alt="Buckhead Village"
-            width={500}
-            height={500}
+              src="/buckheadVillage.jpg"
+              alt="Buckhead Village"
+              width={384}
+              height={250}
           />
+          <h1 className="text-xl mt-6 mb-2">Buckhead Village District</h1>
+          <p className="mb-2">Outdoor shopping and dining destination featuring high-end retail and global cuisines.</p>
         </div>
-        <section className="col-span-12 md:col-span-2 mb-8">
-          <h1 className="text-xl mb-2">Buckhead Village</h1>
-          <p className="mb-2">Outdoor shopping and dining destination featuring high-end retail and global cuisines</p>
-          <a href="https://www.buckheadvillagedistrict.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
-        </section>
-      </section>
-      <section className="grid grid-cols-12 gap-16 items-center container">
-        <div className="col-span-12 md:col-span-6 my-8">
-          <h1 className="text-xl mb-2">The Lenox Mall</h1>
-          <p className="mb-2">3393 Peachtree Rd NE, Atlanta, GA 30326</p>
-          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s</p>
+        <div className="col-span-12 md:col-span-4">
+          <Image
+              src="/lenox-mall.jpg"
+              alt="Lenox Mall"
+              width={384}
+              height={250}
+          />
+          <h1 className="text-xl mt-6 mb-2">The Lenox Square Mall</h1>
+          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s</p>
         </div>
-        <div className="col-span-12 md:col-span-6 my-8">
-          <h1 className="text-xl mb-2">Phipps Plaza</h1>
-          <p className="mb-2">3500 Peachtree Rd NE, Atlanta, GA 30326</p>
-          <p className="mb-2">Located catty-corner to Phipps Plaza, shopping Mall with anchor stores of Neiman Marcus &amp; Bloomingdale&apos;s</p>
+        <div className="col-span-12 md:col-span-4">
+          <Image
+              src="/phipps.jpg"
+              alt="Phipps"
+              width={384}
+              height={250}
+          />
+          <h1 className="text-xl mt-6 mb-2">Phipps Plaza</h1>
+          <p className="mb-2">Located catty-corner to Lenox Square Mall, shopping mall with anchor stores of Saks Fifth Avenue &amp; Nordstrom.</p>
         </div>
       </section>
       <section className="container">
@@ -100,7 +104,7 @@ export default function ToDo() {
             src="/ponce-city.jpg"
             alt="Ponce City Market"
             width={608}
-            height={370}
+            height={390}
           />
 
           <h1 className="text-xl mt-6 mb-2">Ponce City Market</h1>
@@ -140,7 +144,7 @@ export default function ToDo() {
             height={370}
           />
           <h1 className="text-xl mt-6 mb-2">Atlanta History Museum</h1>
-          <p className="mb-2">Our museum atrium serves as a hub for all things Atlanta History Center. From here, you’ll explore award-winning exhibitions highlighting some of the Atlanta’s most important moments, people, and artifacts.</p>
+          <p className="mb-2">The museum atrium serves as a hub for all things Atlanta History Center. From here, explore award-winning exhibitions highlighting some of the Atlanta&apos;s most important moments, people, and artifacts.</p>
           <a href="https://high.org/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
       </section>
