@@ -5,10 +5,10 @@ export default function WeekendEvents() {
   return (
     <section className="weekendEvents">
       <section className="container justify-center items-center grid grid-cols-12">
-        <h1 className="text-7xl text-center col-span-12 uppercase tracking-widest my-20">Weekend Events in ATL</h1>
+        <h1 className="text-7xl mt-20 mb-5 text-center col-span-12 uppercase tracking-widest">Weekend Events in ATL</h1>
+        <p className="text-xl mb-20 col-span-8 col-start-3 text-center"><span className="mx-4">The Wedding Night</span>|<span className="mx-4">March 16th, 2024</span>|<span className="mx-4">Gowns &amp; Tuxes</span></p>
       </section>
       <section className="container">
-      <p className="mt-10 mb-6"><span className="mr-4">The Wedding Night</span>|<span className="mx-4">March 16th, 2024</span>|<span className="mx-4">Gowns &amp; Tuxes</span></p>
       </section>
       <section className="grid grid-cols-12 gap-16 items-start container">
         <div className="col-span-12 md:col-span-6 mb-8">
@@ -36,7 +36,7 @@ export default function WeekendEvents() {
         </div>
       </section>
       <section className="container">
-        <p className="mt-4 mb-6"><span className="mr-4">The Night Before</span>|<span className="mx-4">March 15th, 2024</span>|<span className="mx-4">Cocktail Attire</span></p>
+      <p className="text-xl my-10 col-span-8 col-start-3 text-center"><span className="mr-4">The Night Before</span>|<span className="mx-4">March 15th, 2024</span>|<span className="mx-4">Cocktail Attire</span></p>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
         <section className="col-span-12 md:col-span-4 mb-8">

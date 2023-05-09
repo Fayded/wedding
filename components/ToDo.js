@@ -6,7 +6,7 @@ export default function ToDo() {
   return (
     <section className="toDo">
       <div className="container">
-        <h1 className="text-7xl my-20 text-center col-span-12 uppercase tracking-widest">Do in ATL</h1>
+        <h1 className="text-7xl mt-20 mb-5 text-center col-span-12 uppercase tracking-widest">Do in ATL</h1>
         <p className="mb-14 col-span-8 col-start-3 text-center">Activities and attractions to explore during an ATL stay.</p>
       </div>
       <section className="container">
@@ -20,9 +20,8 @@ export default function ToDo() {
             width={608}
             height={390}
           />
-          <h1 className="text-xl mt-6 mb-2">Chastain Park</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://www.buckhead.com/neighborhoods/chastain-park/" target="_blank">Chastain Park</a></h1>
           <p>Buckhead&apos;s premier park featuring a 2.5 mile walking trail with tennis and pickleball courts.</p>
-          <a href="https://www.buckhead.com/neighborhoods/chastain-park/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
@@ -31,9 +30,8 @@ export default function ToDo() {
             width={608}
             height={390}
           />
-          <h1 className="text-xl mt-6 mb-2">Bobby Jones Golf Course</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://www.bobbyjonesgc.com/" target="_blank">Bobby Jones Golf Course</a></h1>
           <p>Distinguished public golf course design featuring multiple tees and large double greens.</p>
-          <a href="https://www.bobbyjonesgc.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
@@ -45,9 +43,8 @@ export default function ToDo() {
             height={408}
           />
 
-          <h1 className="text-xl mt-6 mb-2">Barry&apos;s bootcamp</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://www.bodycentralpilates.com/" target="_blank">Barry&apos;s bootcamp</a></h1>
           <p>Located in Buckhead Village District, the original high intensity interval workout with a combination of running and weights.</p>
-          <a href="https://www.bodycentralpilates.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
@@ -56,9 +53,8 @@ export default function ToDo() {
             width={608}
             height={408}
           />
-          <h1 className="text-xl mt-6 mb-2">St. Regis Spa</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/experiences/" target="_blank">St. Regis Spa</a></h1>
           <p>From lush surroundings to precious ingredients, every aspect of the spa sanctuary is custom created to captivate and celebrate.</p>
-          <a href="https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/experiences/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
       </section>
       <section className="container">
@@ -108,9 +104,8 @@ export default function ToDo() {
             height={390}
           />
 
-          <h1 className="text-xl mt-6 mb-2">Ponce City Market</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://www.poncecitymarket.com/" target="_blank">Ponce City Market</a></h1>
           <p>Nestled in the Old Fourth Ward along the &quot;Atlanta BeltLine&quot; Eastside Trail, a market with a food hall, shops, and famous rooftop views and entertainment.</p>
-          <a href="https://www.poncecitymarket.com/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>         
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
@@ -120,9 +115,8 @@ export default function ToDo() {
             height={390}
           />
 
-          <h1 className="text-xl mt-6 mb-2">Botanical Gardens</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://atlantabg.org/" target="_blank">Botanical Gardens</a></h1>
           <p>An urban oasis in Midtown boasting thirty acres of display gardens and shady woodlands featuring extensive plant and flower collections.</p>
-          <a href="https://atlantabg.org/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>         
         </section>
       </section>
       <section className="container justify-center grid grid-cols-12 gap-16">
@@ -133,9 +127,8 @@ export default function ToDo() {
             width={608}
             height={370}
           />
-          <h1 className="text-xl mt-6 mb-2">High Museum</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://high.org/" target="_blank">High Museum</a></h1>
           <p className="mb-2">From nineteenth-century sculpture to contemporary folk art, the seven themed collections include more than 18,000 works of art from around the world.</p>
-          <a href="https://high.org/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
@@ -144,9 +137,8 @@ export default function ToDo() {
             width={608}
             height={370}
           />
-          <h1 className="text-xl mt-6 mb-2">Atlanta History Museum</h1>
+          <h1 className="text-xl mt-6 mb-2"><a href="https://high.org/" target="_blank">Atlanta History Museum</a></h1>
           <p className="mb-2">The museum atrium serves as a hub for all things Atlanta History Center. From here, explore award-winning exhibitions highlighting some of the Atlanta&apos;s most important moments, people, and artifacts.</p>
-          <a href="https://high.org/" target="_blank" className="my-4 flex items-center">Visit &nbsp; <HiOutlineChevronRight /></a>
         </section>
       </section>
     </section>
