@@ -5,12 +5,12 @@ import { HiOutlineChevronRight } from 'react-icons/hi'
 export default function ToEat() {
   return (
     <section className="toEat">
-      <section className="container justify-center items-center grid grid-cols-12">
-        <h1 className="text-7xl mt-20 mb-5 text-center col-span-12 uppercase tracking-widest">Eat in ATL</h1>
-        <p className="mb-14 col-span-8 col-start-3 text-center">Favorite eateries of the bride and groom, all within a 2-mile radius of the preferred hotels.</p>
+      <section className="container justify-center items-center grid grid-cols-1 md:grid-cols-6">
+        <h1 className="text-2xl md:text-7xl mt-10 mb-2 md:mt-20 md:mb-5 text-center col-span-12 uppercase tracking-widest">Eat in ATL</h1>
+        <p className="mb-14 col-span-12 md:col-span-8 md:col-start-3 text-center">Favorite eateries of the bride and groom, all within a 2-mile radius of the preferred hotels.</p>
       </section>
-      <section className="grid grid-cols-6 gap-16 items-top container">
-        <div className="col-span-2 md:col-span-2 mb-8">
+      <section className="grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16 items-top container">
+        <div className="col-span-12 md:col-span-2 mb-8">
           <Image
             src="/umi.jpg"
             alt="Umi"
@@ -41,7 +41,7 @@ export default function ToEat() {
           <p>Located in Buckhead Village District, a menu rooted in the northern coast of Italy featuring a flourish of traditional choices with a Venetian-style wine bar.</p>
         </div>
         </section>
-        <section className="grid grid-cols-6 gap-16 items-top container">
+        <section className="grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16 items-top container">
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
             src="/garden-room.jpg"
@@ -73,7 +73,7 @@ export default function ToEat() {
           <p>Trendy restaurant with a casual vibe serving classic Mexican dishes.</p>
         </div>
       </section>
-        <section className="grid grid-cols-6 gap-16 items-top container">
+        <section className="grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16 items-top container">
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
             src="/superica.jpg"

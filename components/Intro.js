@@ -6,17 +6,15 @@ export default function Intro() {
   return (
     <section className="flex items-center justify-center">
       <div className="container items-center">
+        <h1 className={styles.title}>Loves</h1>
         {!password &&
-          <div className="container items-center grid grid-cols-6 gap-16">
-            <section className="col-span-2">
-              <aside className={styles.formButton}>
-                <input type="text" ref={inputRef} placeholder="Password" />
-                <a href="#" onClick={(e) => handleClick(e)}><HiOutlineChevronRight /></a>
-              </aside>
-            </section>
+          <div className="container items-center grid grid-cols-1 md:grid-cols-6">
+            <aside className={styles.formButton}>
+              <input type="text" ref={inputRef} placeholder="Password" />
+              <a href="#" onClick={(e) => handleClick(e)}><HiOutlineChevronRight /></a>
+            </aside>
           </div>
         }
-        <h1 className={styles.title}>Love</h1>
       </div>
     </section>
   )

@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Wedding() {
   return (
     <section className="wedding">
-      <section className="container justify-center grid grid-cols-12 gap-16">
+      <section className="container justify-center grid grid-cols-1 md:grid-cols-12 gap-0 md:gap-16">
         <section className="col-span-6 mb-16">
           <Image
             src="/church.jpg"

@@ -12,7 +12,7 @@ export default function ToDo() {
       <section className="container">
         <h1 className="mt-4 mb-6 text-2xl">Wellness and Fitness</h1>
       </section>
-      <section className="container justify-center grid grid-cols-12 gap-16">
+      <section className="container justify-center grid grid-cols-1 md:grid-cols-12 gap-0 md:gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
             src="/chastain.jpg"
@@ -34,7 +34,7 @@ export default function ToDo() {
           <p>Distinguished public golf course design featuring multiple tees and large double greens.</p>
         </section>
       </section>
-      <section className="container justify-center grid grid-cols-12 gap-16">
+      <section className="container justify-center grid grid-cols-1 md:grid-cols-12 gap-0 md:gap-16">
         <section className="col-span-12 md:col-span-6 mb-8">
           <Image
             src="/barrys.jpg"
@@ -60,7 +60,7 @@ export default function ToDo() {
       <section className="container">
         <h1 className="mt-4 mb-6 text-2xl">Shopping</h1>
       </section>
-      <section className="grid grid-cols-12 gap-16 container">
+      <section className="grid grid-cols-1 md:grid-cols-12 gap-0 md:gap-16 container">
         <div className="col-span-12 md:col-span-4">
           <Image
               src="/buckheadVillage.jpg"
@@ -95,7 +95,7 @@ export default function ToDo() {
       <section className="container">
         <h1 className="mt-4 mb-6 text-2xl">Landmarks</h1>
       </section>
-      <section className="container justify-center grid grid-cols-12 gap-16">
+      <section className="container justify-center grid grid-cols-1 md:grid-cols-12 gap-0 md:gap-16">
         <section className="col-span-12 md:col-span-6 mb-20">
           <Image
             src="/ponce-city.jpg"
@@ -119,7 +119,7 @@ export default function ToDo() {
           <p>An urban oasis in Midtown boasting thirty acres of display gardens and shady woodlands featuring extensive plant and flower collections.</p>
         </section>
       </section>
-      <section className="container justify-center grid grid-cols-12 gap-16">
+      <section className="container justify-center grid grid-cols-1 md:grid-cols-12 gap-0 md:gap-16">
         <section className="col-span-12 md:col-span-6 mb-20">
           <Image
             src="/high-museum.jpg"
