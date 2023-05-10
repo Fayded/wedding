@@ -51,7 +51,7 @@ export default function Home() {
           {!password &&
             <>
               <div className="container items-center grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16">
-                <section className="col-span-2 md:col-start-3">
+                <section className="col-span-2 px-4 md:px-0 md:col-start-3">
                   <aside className={styles.formButton}>
                     <input ref={inputRef} />
                     <a href="#" onClick={(e) => handleClick(e)}><HiOutlineChevronRight /></a>
