@@ -7,10 +7,10 @@ export default function ToStay() {
     <section className="toStay">
       <section className="container justify-center items-center grid grid-cols-1 md:grid-cols-12">
         <h1 className="text-2xl md:text-7xl mt-10 mb-2 md:mt-20 md:mb-5 text-center col-span-12 uppercase tracking-widest">Stay in ATL</h1>
-        <p className="mb-14 col-span-12 md:col-span-8 md:col-start-3 text-center">Guests are highly encouraged to book hotel reservations as soon as possible. <br />Room blocks have been reserved for guests at a discounted rate. Click the respective links below to secure an ATL stay.</p>
+        <p className="mb-14 col-span-12 md:col-span-12 text-center">Guests are highly encouraged to book hotel reservations as soon as possible. <br />Room blocks have been reserved for guests at a discounted rate. Click the respective links below to secure an ATL stay.</p>
       </section>
       <section className="grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16 items-center container">
-        <div className="col-span-12 md:col-span-4 mb-16">
+        <div className="col-span-12 md:col-span-4 md:mb-16">
           <Image
             src="/st-regis-front.jpg"
             alt="St Regis"
@@ -18,8 +18,8 @@ export default function ToStay() {
             height={500}
           />
         </div>
-        <section className="col-span-12 md:col-span-2 mb-16">
-          <h1 className="text-xl mb-4"><a href="https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0" target='_blank'>The St. Regis</a></h1>
+        <section className="col-span-12 md:col-span-2 md:mb-16">
+          <h1 className="text-xl mt-6 mb-4"><a href="https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0" target='_blank'>The St. Regis</a></h1>
           <p className="mb-2">A Luxurious, Regal Hotel - A Marriott Property</p>
           <p>The location of the wedding celebration, guests are highly encouraged to stay at this landmark hotel. Top-ranked The St. Regis Atlanta towers over Buckhead, a city dubbed &apos;The Beverly Hills of the South&apos;. Its impressive European-style architecture, fine custom furnishings and décor, top of the line amenities and impeccable first-class service set a new standard for luxury in Atlanta.</p>
           <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1678224045654&key=GRP&app=resvlink" target='_blank' className="my-4 flex items-center">Reserve the block rate &nbsp; <HiOutlineChevronRight /></a>         
