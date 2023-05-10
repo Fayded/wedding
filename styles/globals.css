@@ -94,3 +94,9 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   letter-spacing: 0.5px
 }
+
+@media (min-width: 767px) {
+  .login, .name {
+    min-height: 300px;
+  }
+}
