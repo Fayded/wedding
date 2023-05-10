@@ -43,7 +43,7 @@ export default function ToDo() {
             height={408}
           />
 
-          <h1 className="text-base md:text-xl mt-6 mb-2"><a href="https://www.barrys.com/studio/atlanta/" target="_blank">Barry&apos;s bootcamp</a></h1>
+          <h1 className="text-base md:text-xl mt-6 mb-2"><a href="https://www.barrys.com/studio/atlanta/" target="_blank">Barry&apos;s Bootcamp</a></h1>
           <p className="text-sm md:text-base">Located in Buckhead Village District, the original high intensity interval workout with a combination of running and weights.</p>
         </section>
         <section className="col-span-12 md:col-span-6 mb-10 md:mb-8">
