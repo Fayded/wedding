@@ -100,3 +100,23 @@ h2 {
     min-height: 300px;
   }
 }
+
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+  transition: all 7s ease-in;
+}
+
+@media (max-width: 767px) {
+  .loginForm {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    transition: all 7s ease-in-out;
+  }
+}

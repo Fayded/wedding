@@ -46,27 +46,25 @@ export default function Home() {
       </Head>
       <main>
       <section className="flex items-center justify-center">
-        <div className="container items-center">
+        <div className="container items-center justify-center loginForm">
           <h1 className={styles.title}>Love</h1>
-          {!password &&
-            <>
-              <div className="container items-center grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16 login">
-                <section className="col-span-2 px-4 md:px-0 md:col-start-3">
-                  <aside className={styles.formButton}>
-                    <input ref={inputRef} />
-                    <a href="#" onClick={(e) => handleClick(e)}><HiOutlineChevronRight /></a>
-                  </aside>
-                </section>
-              </div>
-            </>
-          }
-          {password &&
+          <div className={password ? 'hide login': 'show login'}>
+            <div className="container items-center grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16">
+              <section className="col-span-2 px-4 md:px-0 md:col-start-3">
+                <aside className={styles.formButton}>
+                  <input ref={inputRef} />
+                  <a href="#" onClick={(e) => handleClick(e)}><HiOutlineChevronRight /></a>
+                </aside>
+              </section>
+            </div>
+          </div>
+          <div className={password ? 'show name': 'hide name'}>
             <div className="container items-center text-center grid grid-cols-1 md:grid-cols-12 name">
               <section className="col-span-12">
                 <p className='text-2xl uppercase'><span className="text-base block my-2">The Wedding of</span>Emily Langsenkamp <br /><span className="text-base block my-2">and</span>Kevin Fay</p>
               </section>
             </div>
-          }
+          </div>
         </div>
       </section>
       {password &&
