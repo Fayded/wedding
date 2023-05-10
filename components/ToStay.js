@@ -7,7 +7,7 @@ export default function ToStay() {
     <section className="toStay">
       <section className="container justify-center items-center grid grid-cols-1 md:grid-cols-12">
         <h1 className="text-2xl md:text-7xl mt-10 mb-2 md:mt-20 md:mb-5 text-center col-span-12 uppercase tracking-widest">Stay in ATL</h1>
-        <p className="mb-14 col-span-12 md:col-span-8 md:col-start-3 text-center">Guests are highly encouraged to book hotel reservations as soon as possible. <br />Room blocks have been reserved for guests at a discounted rate. Click the respective links below to secure an ATL stay.</p>
+        <p className="mb-14 col-span-12 md:col-span-12 text-center">Guests are highly encouraged to book hotel reservations as soon as possible. <br />Room blocks have been reserved for guests at a discounted rate. Click the respective links below to secure an ATL stay.</p>
       </section>
       <section className="grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16 items-center container">
         <div className="col-span-12 md:col-span-4 mb-16">

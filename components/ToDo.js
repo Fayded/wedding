@@ -7,7 +7,7 @@ export default function ToDo() {
     <section className="toDo">
       <div className="container">
         <h1 className="text-7xl mt-20 mb-5 text-center col-span-12 uppercase tracking-widest">Do in ATL</h1>
-        <p className="mb-14 col-span-8 col-start-3 text-center">Activities and attractions to explore during an ATL stay.</p>
+        <p className="mb-14 col-span-12 text-center">Activities and attractions to explore during an ATL stay.</p>
       </div>
       <section className="container">
         <h1 className="mt-4 mb-6 text-2xl">Wellness and Fitness</h1>
