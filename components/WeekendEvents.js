@@ -6,7 +6,8 @@ export default function WeekendEvents() {
     <section className="weekendEvents">
       <section className="container justify-center items-center grid grid-cols-1 md:grid-cols-12">
         <h1 className="text-2xl md:text-7xl mt-10 mb-2 md:mt-20 md:mb-5 text-center col-span-12 uppercase tracking-widest">Weekend Events in ATL</h1>
-        <p className="text-xs md:text-lg mb-6 md:mb-14 col-span-12 md:col-span-12 text-center"><span className="mx-1 md:mx-4">The Wedding Night</span>|<span className="mx-1 md:mx-4">March 16th, 2024</span>|<span className="mx-1 md:mx-4">Gowns &amp; Tuxes</span></p>
+        <p className="text-xs md:text-lg col-span-12 md:col-span-12 mb-6 md:mb-14 text-center"><span className="mx-1 md:mx-4">The Wedding Night</span>|<span className="mx-1 md:mx-4">March 16th, 2024</span>|<span className="mx-1 md:mx-4">Gowns &amp; Tuxes</span><br />
+        <span className="text-xs ">Adults Only</span></p>
       </section>
       <section className="container">
       </section>
