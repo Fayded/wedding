@@ -28,6 +28,11 @@
   }
 }
 
+.formContainer {
+  position: relative;
+  min-height: 260px;
+}
+
 .formButton {
   position: relative;
   display: flex;
@@ -45,7 +50,11 @@
     font-weight: 700;
   }
 
-  a {
+  input::placeholder {
+    font-weight: 400  
+  }
+
+  button {
     color: white;
     display: flex;
     border-left: 1px solid white;

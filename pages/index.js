@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React, {useRef, useState} from 'react'
+import React, {useRef, useState, useEffect} from 'react'
 import { Montserrat } from 'next/font/google'
 // import Intro from '../components/Intro'
 import WeekendEvents from '../components/WeekendEvents'
@@ -18,8 +18,17 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 export default function Home() {
   let inputRef = useRef(null);
   const [password, setPassword] = useState(false)
+  const myRef = useRef(null)
 
-  const handleClick = async (e) => {
+  useEffect(() => {
+    myRef.current.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+          inline: 'end'
+        });
+  }, [password]);
+
+  const onFormSubmit = async (e) => {
     e.preventDefault()
     try {
       const res = await fetch('/api/password', {
@@ -48,24 +57,29 @@ export default function Home() {
       <section className="flex items-center justify-center">
         <div className="container items-center justify-center loginForm">
           <h1 className={styles.title}>Love</h1>
-          <div className={password ? 'hide login': 'show login'}>
-            <div className="container items-center grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16">
-              <section className="col-span-2 px-4 md:px-0 md:col-start-3">
-                <aside className={styles.formButton}>
-                  <input ref={inputRef} />
-                  <a href="#" onClick={(e) => handleClick(e)}><HiOutlineChevronRight /></a>
-                </aside>
-              </section>
+          <div className={styles.formContainer}>
+            <div className={password ? 'hide login': 'show login'}>
+              <div className="container items-center grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16">
+                <section className="col-span-2 px-4 md:px-0 md:col-start-3">
+                  <form onSubmit={onFormSubmit}>
+                    <aside className={styles.formButton}>
+                      <input placeholder="Password" ref={inputRef} />
+                      <button type="submit"><HiOutlineChevronRight /></button>
+                    </aside>
+                  </form>
+                </section>
+              </div>
             </div>
-          </div>
-          <div className={password ? 'show name': 'hide name'}>
-            <div className="container items-center text-center grid grid-cols-1 md:grid-cols-12 name">
-              <section className="col-span-12">
-                <p className='text-2xl uppercase'><span className="text-base block my-2">The Wedding of</span>Emily Langsenkamp <br /><span className="text-base block my-2">and</span>Kevin Fay</p>
-              </section>
+            <div className={password ? 'show name': 'hide name'}>
+              <div className="container items-center text-center grid grid-cols-1 md:grid-cols-12 name">
+                <section className="col-span-12">
+                  <p className='text-2xl md:text-4xl uppercase tracking-wider'><span className="text-base md:text-lg block my-2">The Wedding of</span>Emily Langsenkamp <br /><span className="text-base md:text-lg block my-2">and</span>Kevin Fay</p>
+                </section>
+              </div>
             </div>
           </div>
         </div>
+        <section ref={myRef} className="pt-40 mt-0 md:pt-0 md:mt-40"></section>
       </section>
       {password &&
       <>
