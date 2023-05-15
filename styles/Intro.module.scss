@@ -30,7 +30,13 @@
 
 .formContainer {
   position: relative;
-  min-height: 260px;
+  min-height: 140px;
+}
+
+@media (min-width: '767px') {
+  .formContainer  {
+    min-height: 260px
+  }
 }
 
 .formButton {

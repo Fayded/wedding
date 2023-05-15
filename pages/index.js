@@ -79,7 +79,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <section ref={myRef} className="pt-40 mt-0 md:pt-0 md:mt-40"></section>
+        <section ref={myRef} className="pt-0 mt-0 md:pt-0 md:mt-40"></section>
       </section>
       {password &&
       <>
