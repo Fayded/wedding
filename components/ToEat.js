@@ -32,13 +32,13 @@ export default function ToEat() {
         </div>
         <div className="col-span-12 md:col-span-2 mb-8">
           <Image
-            src="/storico-vino.jpg"
-            alt="Storico Vino"
+            src="/yeppa.jpg"
+            alt="Yeppa &amp; Co"
             width={384}
             height={250}
           />
-          <h2 className="text-md mt-4 mb-2"><a href="https://www.storicovino.com/" target="_blank">Storico Vino</a></h2>
-          <p className="text-sm md:text-base">Located in Buckhead Village District, a menu rooted in the northern coast of Italy featuring a flourish of traditional choices with a Venetian-style wine bar.</p>
+          <h2 className="text-md mt-4 mb-2"><a href="https://www.yeppaco.com/" target="_blank">Yeppa</a></h2>
+          <p className="text-sm md:text-base">Located in Buckhead Village District, an Italian jaunt that is part-restaurant, part-coffee shop, and part-Formula One cocktail bar.</p>
         </div>
         </section>
         <section className="grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-16 items-top container">

@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { HiOutlineChevronRight } from 'react-icons/hi'
 
 export default function ToDo() {
   return (
