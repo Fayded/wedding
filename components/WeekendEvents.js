@@ -36,53 +36,6 @@ export default function WeekendEvents() {
           <br />Immediately Following The Ceremony</p>
         </div>
       </section>
-      <section className="container">
-      <p className="text-xs md:text-lg md:text-base mt-10 mb-6 md:mb-14 col-span-12 md:col-span-12 text-center"><span className="mx-1 md:mx-2">The Night Before</span>|<span className="mx-1 md:mx-2">March 15th, 2024</span>|<span className="mx-1 md:mx-2">Casual Chic</span></p>
-      </section>
-      <section className="container justify-center grid grid-cols-1 md:grid-cols-12 gap-0 md:gap-16">
-        <section className="col-span-12 md:col-span-4 mb-8">
-          <Image
-            src="/christ-the-king.jpg"
-            alt="Christ the King"
-            width={608}
-            height={390}
-          />       
-          <h1 className="text-base md:text-xl mt-6 mb-2">The Rehearsal</h1>
-          <p className="text-sm md:text-base pb-6">Cathedral of Christ the King
-            <br />Five O&apos;Clock
-            <br />
-            <span className="text-xs">Invite only</span>
-          </p>
-        </section>
-        <section className="col-span-12 md:col-span-4 mb-8">
-          <Image
-            src="/rehearsal.jpg"
-            alt="Le Colonial"
-            width={608}
-            height={390}
-          />
-          <h1 className="text-base md:text-xl mt-6 mb-2">The Rehearsal Dinner</h1>
-          <p className="text-sm md:text-base pb-6">Le Colonial
-            <br />Six O&apos;Clock
-            <br />
-            <span className="text-xs">Invite only</span>
-          </p>
-        </section>
-        <section className="col-span-12 md:col-span-4 mb-8">
-          <Image
-            src="/le-colonial.jpg"
-            alt="Le Colonial"
-            width={608}
-            height={390}
-          />
-          <h1 className="text-base md:text-xl mt-6 mb-2">The Welcome Party</h1>
-          <p className="text-sm md:text-base pb-6">Le Colonial
-            <br />Eight to Ten O&apos;Clock
-            <br />
-            <span className="text-xs">Out of town guests only</span>
-          </p>
-        </section>
-      </section>
     </section>
   )
 }
