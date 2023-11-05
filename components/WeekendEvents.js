@@ -70,13 +70,13 @@ export default function WeekendEvents() {
         </section>
         <section className="col-span-12 md:col-span-4 mb-8">
           <Image
-            src="/le-colonial.jpg"
-            alt="Le Colonial"
+            src="/southern.jpg"
+            alt="The Southern Gentleman"
             width={608}
             height={390}
           />
-          <h1 className="text-base md:text-xl mt-6 mb-2">The Welcome Party</h1>
-          <p className="text-sm md:text-base pb-6">Le Colonial
+          <h1 className="text-base md:text-xl mt-6 mb-2">The Welcome Cocktails</h1>
+          <p className="text-sm md:text-base pb-6">The Southern Gentleman
             <br />Eight to Ten O&apos;Clock
             <br />
             <span className="text-xs">Out of town guests only</span>
