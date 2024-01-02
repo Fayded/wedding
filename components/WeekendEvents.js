@@ -31,7 +31,7 @@ export default function WeekendEvents() {
             width={609}
             height={662}
           />
-          <h1 className="text-base md:text-xl mt-6 mb-2">The Celebration</h1>
+          <h1 className="text-base md:text-xl mt-6 mb-2">The Reception</h1>
           <p className="text-sm md:text-base">The St. Regis
           <br />Immediately Following The Ceremony</p>
         </div>
