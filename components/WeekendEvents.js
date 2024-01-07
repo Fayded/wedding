@@ -22,7 +22,7 @@ export default function WeekendEvents() {
           <h1 className="text-sm md:text-base md:text-base md:text-xl mt-6 mb-2">The Ceremony</h1>
           <p className="text-sm md:text-base pb-6">Cathedral of Christ the King
             <br />Six O&apos;Clock
-            <br />Transportation provided from St. Regis
+            <br /><span className="text-xs block mt-4">Transportation provided from St. Regis</span>
           </p>
         </div>
         <div className="col-span-12 md:col-span-6 mb-8">
@@ -35,7 +35,7 @@ export default function WeekendEvents() {
           <h1 className="text-base md:text-xl mt-6 mb-2">The Reception</h1>
           <p className="text-sm md:text-base">The St. Regis
             <br />Immediately Following The Ceremony
-            <br />Transportation provided from Cathedral
+            <br /><span className="text-xs block mt-4">Transportation provided from Cathedral</span>
           </p>
         </div>
       </section>
