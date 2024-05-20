@@ -1,6 +1,6 @@
 import RootLayout from "@/components/Layout";
 import HighlightsLayout from "@/components/HighlightsLayout";
-import { pictures } from "./pictures";
+import { pictures } from "@/components/pictures";
 import OptimizedImage from "@/components/OptimizedImage";
 
 const FamilyPhotos = () => {
