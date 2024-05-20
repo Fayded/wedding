@@ -1,5 +1,6 @@
-import RootLayout from '@/components/Layout';
-import HighlightsLayout from '@/components/HighlightsLayout';
+import RootLayout from "@/components/Layout";
+import HighlightsLayout from "@/components/HighlightsLayout";
+import { pictures } from "./pictures";
 
 const CocktailParty = () => {
   return <div>Cocktail Party</div>;

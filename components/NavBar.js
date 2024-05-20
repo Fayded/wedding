@@ -6,14 +6,13 @@ const ActiveMenuLink = ({ children, href }) => {
   const active = href === pathname;
 
   return (
-    <Link
-      href={href}
-      className={`hover:bg-gray-100 p-2 rounded block text-sm ${
-        active ? 'text-black font-semibold' : 'text-gray-500'
-      }`}
-    >
-      {children}
-    </Link>
+		<li className={`py-1 hover:border-b no-underline ${ active ? 'border-b border-slate-200' : 'border-b border-transparent' }`}>
+			<Link
+				href={href}
+				className="mx-5 uppercase no-underline hover:no-underline">
+				{children}
+			</Link>
+		</li>
   );
 };
 
@@ -21,27 +20,13 @@ export default function NavBar() {
 	return (
 		<nav>
 			<ul className="flex justify-center">
-				<li className="mx-5 uppercase">
-					<ActiveMenuLink href="/highlights/firstLooks">First Looks</ActiveMenuLink>
-				</li>
-				<li className="mx-5 uppercase">
-					<ActiveMenuLink href="/highlights/cathedralArrivals">Cathedral Arrivals</ActiveMenuLink>
-				</li>
-				<li className="mx-5 uppercase">
-					<ActiveMenuLink href="/highlights/familyPhotos">Family Photos</ActiveMenuLink>
-				</li>
-				<li className="mx-5 uppercase">
-					<ActiveMenuLink href="/highlights/ceremony">Ceremony</ActiveMenuLink>
-				</li>
-				<li className="mx-5 uppercase">
-					<ActiveMenuLink href="/highlights/cocktailParty">Cocktail Party</ActiveMenuLink>
-				</li>
-				<li className="mx-5 uppercase">
-					<ActiveMenuLink href="/highlights/reception">Reception</ActiveMenuLink>
-				</li>
-				<li className="mx-5 uppercase">
-					<ActiveMenuLink href="/highlights/afterParty">After Party</ActiveMenuLink>
-				</li>
+				<ActiveMenuLink href="/highlights/firstLooks">First Looks</ActiveMenuLink>
+				<ActiveMenuLink href="/highlights/cathedralArrivals">Cathedral Arrivals</ActiveMenuLink>
+				<ActiveMenuLink href="/highlights/familyPhotos">Family Photos</ActiveMenuLink>
+				<ActiveMenuLink href="/highlights/ceremony">Ceremony</ActiveMenuLink>
+				<ActiveMenuLink href="/highlights/cocktailParty">Cocktail Party</ActiveMenuLink>
+				<ActiveMenuLink href="/highlights/reception">Reception</ActiveMenuLink>
+				<ActiveMenuLink href="/highlights/afterParty">After Party</ActiveMenuLink>
 			</ul>
 		</nav>
 	)

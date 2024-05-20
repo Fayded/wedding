@@ -1,11 +1,12 @@
 const RootLayout = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen mx-auto max-w-2xl px-4 pt-8 pb-16">
-      <div className="flex-grow">
-        <main className="my-0 py-16">{children}</main>
-      </div>
-    </div>
-  );
+    <>
+			<section className="container justify-center items-center grid grid-cols-1 md:grid-cols-12 mb-5 md:mb-0">
+					<h1 className="text-2xl md:text-7xl mt-10 mb-2 md:mt-20 md:mb-5 text-center col-span-12 uppercase tracking-widest">Highlights</h1>
+			</section>
+			<main>{children}</main>
+	</>
+	);
 };
 
 export default RootLayout;
