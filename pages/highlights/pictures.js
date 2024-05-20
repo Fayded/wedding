@@ -12,15 +12,7 @@ export const pictures = [{
         alt: "First Looks",
     },
     {
-        src: "First-looks/05583_240316_EmilyKevin.jpg",
-        alt: "First Looks",
-    },
-    {
         src: "First-looks/05596_240316_EmilyKevin.jpg",
-        alt: "First Looks",
-    },
-    {
-        src: "First-looks/05599_240316_EmilyKevin.jpg",
         alt: "First Looks",
     },
     {
@@ -29,6 +21,14 @@ export const pictures = [{
     },
     {
         src: "First-looks/1S5A1253.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/05599_240316_EmilyKevin.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/05583_240316_EmilyKevin.jpg",
         alt: "First Looks",
     },
     {
@@ -195,190 +195,190 @@ export const pictures = [{
         alt: "Cathedral Arrivals",
     }],
     familyPhotos: [{
-        src: "Family-photos/00816_240316_EmilyKevin.jpg",
+        src: "Family/00816_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00819_240316_EmilyKevin.jpg",
+        src: "Family/00819_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00820_240316_EmilyKevin.jpg",
+        src: "Family/00820_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00822_240316_EmilyKevin.jpg",
+        src: "Family/00822_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00826_240316_EmilyKevin.jpg",
+        src: "Family/00826_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00831_240316_EmilyKevin.jpg",
+        src: "Family/00831_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00840_240316_EmilyKevin.jpg",
+        src: "Family/00840_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00843_240316_EmilyKevin.jpg",
+        src: "Family/00843_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00855_240316_EmilyKevin.jpg",
+        src: "Family/00855_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00858_240316_EmilyKevin.jpg",
+        src: "Family/00858_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00870_240316_EmilyKevin.jpg",
+        src: "Family/00870_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00875_240316_EmilyKevin.jpg",
+        src: "Family/00875_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00878_240316_EmilyKevin.jpg",
+        src: "Family/00878_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00890_240316_EmilyKevin.jpg",
+        src: "Family/00890_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00893_240316_EmilyKevin.jpg",
+        src: "Family/00893_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00980_240316_EmilyKevin.jpg",
+        src: "Family/00980_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/00985_240316_EmilyKevin.jpg",
+        src: "Family/00985_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/01057_240316_EmilyKevin.jpg",
+        src: "Family/01057_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/01141_240316_EmilyKevin.jpg",
+        src: "Family/01141_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/01303_240316_EmilyKevin.jpg",
+        src: "Family/01303_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/01314_240316_EmilyKevin.jpg",
+        src: "Family/01314_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/02113_240316_EmilyKevin.jpg",
+        src: "Family/02113_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05583_240316_EmilyKevin.jpg",
+        src: "Family/05583_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05591_240316_EmilyKevin.jpg",
+        src: "Family/05591_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05594_240316_EmilyKevin.jpg",
+        src: "Family/05594_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05602_240316_EmilyKevin.jpg",
+        src: "Family/05602_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05604_240316_EmilyKevin.jpg",
+        src: "Family/05604_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05608_240316_EmilyKevin.jpg",
+        src: "Family/05608_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05609_240316_EmilyKevin.jpg",
+        src: "Family/05609_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05617_240316_EmilyKevin.jpg",
+        src: "Family/05617_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05618_240316_EmilyKevin.jpg",
+        src: "Family/05618_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05645_240316_EmilyKevin.jpg",
+        src: "Family/05645_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     },{
-        src: "Family-photos/05649_240316_EmilyKevin.jpg",
+        src: "Family/05649_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05699_240316_EmilyKevin.jpg",
+        src: "Family/05699_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/05719_240316_EmilyKevin.jpg",
+        src: "Family/05719_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A0953.jpg",
+        src: "Family/1S5A0953.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A0969.jpg",
+        src: "Family/1S5A0969.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A1138.jpg",
+        src: "Family/1S5A1138.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A1145.jpg",
+        src: "Family/1S5A1145.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A1169.jpg",
+        src: "Family/1S5A1169.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A1170.jpg",
+        src: "Family/1S5A1170.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A1191.jpg",
+        src: "Family/1S5A1191.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A1480.jpg",
+        src: "Family/1S5A1480.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A1503.jpg",
+        src: "Family/1S5A1503.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A1516.jpg",
+        src: "Family/1S5A1516.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A1679.jpg",
+        src: "Family/1S5A1679.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A2143.jpg",
+        src: "Family/1S5A2143.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/1S5A2153.jpg",
+        src: "Family/1S5A2153.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/AE8A2596copy.jpg",
+        src: "Family/AE8A2596copy.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/AE8A2653copy.jpg",
+        src: "Family/AE8A2653copy.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/AE8A2660.jpg",
+        src: "Family/AE8A2660.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/AE8A3331.jpg",
+        src: "Family/AE8A3331.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/AE8A3337.jpg",
+        src: "Family/AE8A3337.jpg",
         alt: "Family Photos",
     },{
-        src: "Family-photos/AE8A3396.jpg",
+        src: "Family/AE8A3396.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/AE8A3402.jpg",
+        src: "Family/AE8A3402.jpg",
         alt: "Family Photos",
     },{
-        src: "Family-photos/AE8A3535.jpg",
+        src: "Family/AE8A3535.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/AR5A6183.jpg",
+        src: "Family/AR5A6183.jpg",
         alt: "Family Photos",
     },{
-        src: "Family-photos/AR5A6186.jpg",
+        src: "Family/AR5A6186.jpg",
         alt: "Family Photos",
     }, {
-        src: "Family-photos/AR5A6709.jpg",
+        src: "Family/AR5A6709.jpg",
         alt: "Family Photos",
     },{
-        src: "Family-photos/CG9A5528.jpg",
+        src: "Family/CG9A5528.jpg",
         alt: "Family Photos",
     },{
-        src: "Family-photos/CG9A5537copy.jpg",
+        src: "Family/CG9A5537copy.jpg",
         alt: "Family Photos",
     },{
-        src: "Family-photos/CG9A5565.jpg",
+        src: "Family/CG9A5565.jpg",
         alt: "Family Photos",
     }],
     ceremony: [{
@@ -391,24 +391,24 @@ export const pictures = [{
         src: "Ceremony/01444_240316_EmilyKevin.jpg",
         alt: "Ceremony"
     }, {
-        src: "Ceremony/01461_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
         src: "Ceremony/01480_240316_EmilyKevin.jpg",
         alt: "Ceremony"
-    }, {
-        src: "Ceremony/01481_240316_EmilyKevin.jpg",
+    },  {
+        src: "Ceremony/01536_240316_EmilyKevin.jpg",
         alt: "Ceremony",
     }, {
         src: "Ceremony/01491_240316_EmilyKevin.jpg",
         alt: "Ceremony"
     }, {
-        src: "Ceremony/01536_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    },{
         src: "Ceremony/01551_240316_EmilyKevin.jpg",
         alt: "Ceremony"
+    },  {
+        src: "Ceremony/01481_240316_EmilyKevin.jpg",
+        alt: "Ceremony",
     }, {
+        src: "Ceremony/01461_240316_EmilyKevin.jpg",
+        alt: "Ceremony",
+    },{
         src: "Ceremony/01577_240316_EmilyKevin.jpg",
         alt: "Ceremony",
     }, {
@@ -468,15 +468,15 @@ export const pictures = [{
     }, {
         src: "Ceremony/02039_240316_EmilyKevin.jpg",
         alt: "Ceremony",
+    },{
+        src: "Ceremony/072A8737.jpg",
+        alt: "Ceremony"
     }, {
         src: "Ceremony/02046_240316_EmilyKevin.jpg",
         alt: "Ceremony"
     }, {
         src: "Ceremony/072A8732.jpg",
         alt: "Ceremony",
-    }, {
-        src: "Ceremony/072A8737.jpg",
-        alt: "Ceremony"
     }, {
         src: "Ceremony/072A8740.jpg",
         alt: "Ceremony",
@@ -493,17 +493,14 @@ export const pictures = [{
         src: "Ceremony/072A8780.jpg",
         alt: "Ceremony",
     }, {
-        src: "Ceremony/072A8781.jpg",
-        alt: "Ceremony"
-    }, {
         src: "Ceremony/072A8783.jpg",
         alt: "Ceremony",
     },{
         src: "Ceremony/072A8788.jpg",
         alt: "Ceremony"
     }, {
-        src: "Ceremony/072A8801.jpg",
-        alt: "Ceremony",
+        src: "Ceremony/072A8781.jpg",
+        alt: "Ceremony"
     }, {
         src: "Ceremony/072A8812.jpg",
         alt: "Ceremony"

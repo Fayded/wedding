@@ -1,8 +1,8 @@
-import RootLayout from '@/components/Layout';
-import HighlightsLayout from '@/components/HighlightsLayout';
+import RootLayout from "@/components/Layout";
+import HighlightsLayout from "@/components/HighlightsLayout";
 
 const AfterParty = () => {
-  return <div>After Party</div>;
+	return (<h1>After Party</h1>)
 };
 
 AfterParty.getLayout = (page) => (
