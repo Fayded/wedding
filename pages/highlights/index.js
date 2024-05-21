@@ -5,10 +5,10 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 import { pictures } from "@/components/pictures";
 import OptimizedImage from "@/components/OptimizedImage";
 
-export default function Highlights({children}) {
+export default function Highlights() {
   const { firstLooks } = pictures[0]
 	return (
-		<ul className="columns-5 gap-4 gap-y-4 mt-10 px-20">
+		<ul className="columns-2 md:columns-5 gap-2 md:gap-4 gap-y-2 md:gap-y-4 mt-10 px-10 md:px-20">
 			{firstLooks && firstLooks.map((photo, index) => (
 				<li key={index} className="mb-4">
 					<OptimizedImage src={photo.src} alt={photo.alt} width={480} height={333} />

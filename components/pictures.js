@@ -42,7 +42,122 @@ export const pictures = [{
     {
         src: "First-looks/1S5A1391.jpg",
         alt: "First Looks",
-    }],
+    },
+
+
+    {
+        src: "First-looks/1S5A3137.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/1S5A3155.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/1S5A3161.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/1S5A3173.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/1S5A3178.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/1S5A3183.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/1S5A3201.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/1S5A3223.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AE8A2914.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AE8A3582.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AE8A3586.jpg",
+        alt: "First Looks",
+    }, {
+        src: "First-looks/AE8A3588.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AE8A3605.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AE8A3672.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AE8A3692.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AR5A6344.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AR5A6467.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AR5A6510.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AR5A6526.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/CG9A5596.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/CG9A5757.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/CG9A6211.jpg",
+        alt: "First Looks",
+    },
+
+
+    {
+        src: "First-looks/CG9A6812.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/CG9A6815.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/CG9A6828.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/CG9A6892.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/LUV04607.jpg",
+        alt: "First Looks",
+    },
+    {
+        src: "First-looks/AR5A6467.jpg",
+        alt: "First Looks",
+    }   ],
     cathedralArrivals: [{
         src: "Cathedral-arrivals/01353_240316_EmilyKevin.jpg",
         alt: "Cathedral Arrivals",
@@ -613,7 +728,7 @@ export const pictures = [{
         src: "Ceremony/1S5A2618.jpg",
         alt: "Ceremony"
     }, {
-        src: "1S5A2672.jpg",
+        src: "Ceremony/1S5A2672.jpg",
         alt: "Ceremony",
     }, {
         src: "Ceremony/1S5A2677.jpg",
@@ -679,46 +794,46 @@ export const pictures = [{
         src: "Ceremony/CG9A6349.jpg",
         alt: "Ceremony",
     }, {
-        src: "Cermony/CG9A6350.jpg",
+        src: "Ceremony/CG9A6350.jpg",
         alt: "Ceremony",
     },{
-        src: "Cermony/CG9A6375.jpg",
+        src: "Ceremony/CG9A6375.jpg",
         alt: "Ceremony"
     }, {
-        src: "Cermony/CG9A6376.jpg",
+        src: "Ceremony/CG9A6376.jpg",
         alt: "Ceremony",
     }, {
-        src: "Cermony/CG9A6378.jpg",
+        src: "Ceremony/CG9A6378.jpg",
         alt: "Ceremony"
     }, {
-        src: "Cermony/CG9A6466.jpg",
+        src: "Ceremony/CG9A6466.jpg",
         alt: "Ceremony",
     }, {
-        src: "Cermony/CG9A6471.jpg",
+        src: "Ceremony/CG9A6471.jpg",
         alt: "Ceremony"
     }, {
-        src: "Cermony/CG9A6475.jpg",
+        src: "Ceremony/CG9A6475.jpg",
         alt: "Ceremony",
-    },{
-        src: "Cermony/LUV05013.jpg",
+    }, {
+        src: "Ceremony/LUV05013.jpg",
         alt: "Ceremony"
     }, {
-        src: "Cermony/LUV05138.jpg",
+        src: "Ceremony/LUV05138.jpg",
         alt: "Ceremony",
     }, {
-        src: "Cermony/LUV05192.jpg",
+        src: "Ceremony/LUV05192.jpg",
         alt: "Ceremony"
     }, {
-        src: "Cermony/LUV05203.jpg",
+        src: "Ceremony/LUV05203.jpg",
         alt: "Ceremony",
     }, {
-        src: "Cermony/LUV05217.jpg",
+        src: "Ceremony/LUV05217.jpg",
         alt: "Ceremony",
     }, {
-        src: "Cermony/LUV05232.jpg",
+        src: "Ceremony/LUV05232.jpg",
         alt: "Ceremony",
     }, {
-        src: "Cermony/LUV05781.jpg",
+        src: "Ceremony/LUV05781.jpg",
         alt: "Ceremony",
     }],
     cocktailParty: [{
@@ -1254,9 +1369,6 @@ export const pictures = [{
         src: "Reception/05037_240316_EmilyKevin.jpg",
         alt: "Reception",
     },{
-        src: "Reception/_240316_EmilyKevin.jpg",
-        alt: "Reception",
-    }, {
         src: "Reception/072A8820.jpg",
         alt: "Reception",
     }, {
@@ -1803,5 +1915,128 @@ export const pictures = [{
         src: "Reception/AE8A4265.jpg",
         alt: "Reception",
     }],
-    afterParty: [{}]
+    afterParty: [{
+        src: "After-party/02209_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02215_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02240_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02253_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02265_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02267_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02275_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02282_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02284_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02300_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02308_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02325_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02333_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02353_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02425_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02448_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02465_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02469_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02478_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02480_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02595_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02649_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02676_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02448_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02465_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02469_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02478_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02480_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02595_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02649_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02676_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02686_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02705_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02729_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02730_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02736_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02739_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02747_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02751_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02782_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
+        src: "After-party/02785_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }]
 }]
