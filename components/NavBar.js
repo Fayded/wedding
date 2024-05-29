@@ -4,7 +4,6 @@ import { usePathname } from 'next/navigation';
 const ActiveMenuLink = ({ children, href }) => {
   const pathname = usePathname();
   const active = href === pathname;
-
   return (
 		<li className={`py-1 hover:border-b no-underline ${ active ? 'border-b border-slate-200' : 'border-b border-transparent' }`}>
 			<Link
@@ -16,10 +15,11 @@ const ActiveMenuLink = ({ children, href }) => {
   );
 };
 
-export default function NavBar() {
+export default function NavBar(props) {
+	const { isOpen } = props;
 	return (
-		<nav>
-			<ul className="flex justify-center">
+		<nav className={isOpen ? 'left-0' : 'lg:left-0 absolute lg:relative left-[-100%]'}>
+			<ul className="block lg:flex justify-center">
 				<ActiveMenuLink href="/highlights/firstLooks">First Looks</ActiveMenuLink>
 				<ActiveMenuLink href="/highlights/cathedralArrivals">Cathedral Arrivals</ActiveMenuLink>
 				<ActiveMenuLink href="/highlights/familyPhotos">Family Photos</ActiveMenuLink>
