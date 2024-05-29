@@ -6,7 +6,7 @@ import OptimizedImage from "@/components/OptimizedImage";
 const FamilyPhotos = () => {
 	const { familyPhotos } = pictures[0]
 	return (
-		<ul className="columns-5 gap-4 gap-y-4 mt-10 px-20">
+		<ul className="px-4 md:columns-2 md:gap-4 md:gap-y-4 md:px-4 lg:columns-5 lg:gap-4 lg:gap-y-4 lg:px-20 mt-10">
 			{familyPhotos && familyPhotos.map((photo, index) => (
 				<li key={index} className="mb-4">
 					<OptimizedImage src={photo.src} alt={photo.alt} width={480} height={333} />

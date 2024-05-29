@@ -5,7 +5,7 @@ const ActiveMenuLink = ({ children, href }) => {
   const pathname = usePathname();
   const active = href === pathname;
   return (
-		<li className={`py-1 hover:border-b no-underline ${ active ? 'border-b border-slate-200' : 'border-b border-transparent' }`}>
+		<li className={`py-1 lg:hover:border-b no-underline ${ active ? 'lg:border-b lg:border-slate-200' : 'lg:border-b lg:border-transparent' }`}>
 			<Link
 				href={href}
 				className="mx-5 uppercase no-underline hover:no-underline">
@@ -18,7 +18,7 @@ const ActiveMenuLink = ({ children, href }) => {
 export default function NavBar(props) {
 	const { isOpen } = props;
 	return (
-		<nav className={isOpen ? 'left-0' : 'lg:left-0 absolute lg:relative left-[-100%]'}>
+		<nav className={`${isOpen ? 'max-h-80' : 'max-h-0'} lg:max-h-100 overflow-hidden lg:overflow-visible transition-all duration-500 ease`}>
 			<ul className="block lg:flex justify-center">
 				<ActiveMenuLink href="/highlights/firstLooks">First Looks</ActiveMenuLink>
 				<ActiveMenuLink href="/highlights/cathedralArrivals">Cathedral Arrivals</ActiveMenuLink>
