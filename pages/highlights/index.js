@@ -2,7 +2,10 @@ import { useEffect, useRef } from "react";
 import RootLayout from "@/components/Layout";
 import HighlightsLayout from "@/components/HighlightsLayout";
 
-export default function Highlights() {  
+export default function Highlights() {
+	useEffect(() => {
+		const video = document.querySelector("video").scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+	}, []);
   return (
     <section className="flex justify-center mt-10">
       <video controls preload="none" autoPlay width="100%" muted>
