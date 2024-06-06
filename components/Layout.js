@@ -30,7 +30,7 @@ const RootLayout = ({ children }) => {
 						)}
 			</section>
 			<p className="container text-sm md:text-base mb-10 md:mb-10 col-span-12 md:col-span-12 md:text-center gmb-2">
-        Click on photo to download the high resolution version
+			We are thrilled to share the highlight video and some of our favorite moments from the unforgettable night! To download a photo, click the image for a complimentary high resolution version. Enjoy!
 			</p>
 			<NavBar isOpen={isOpen} />
 			<main className="lg:mt-20">{children}</main>
