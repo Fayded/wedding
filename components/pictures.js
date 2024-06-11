@@ -42,10 +42,7 @@ export const pictures = [{
     {
         src: "First-looks/1S5A1391.jpg",
         alt: "First Looks",
-    },
-
-
-    {
+    }, {
         src: "First-looks/1S5A3137.jpg",
         alt: "First Looks",
     },
@@ -131,10 +128,7 @@ export const pictures = [{
     {
         src: "First-looks/CG9A6211.jpg",
         alt: "First Looks",
-    },
-
-
-    {
+    }, {
         src: "First-looks/CG9A6812.jpg",
         alt: "First Looks",
     },
@@ -153,11 +147,7 @@ export const pictures = [{
     {
         src: "First-looks/LUV04607.jpg",
         alt: "First Looks",
-    },
-    {
-        src: "First-looks/AR5A6467.jpg",
-        alt: "First Looks",
-    }   ],
+    }],
     cathedralArrivals: [{
         src: "Cathedral-arrivals/01353_240316_EmilyKevin.jpg",
         alt: "Cathedral Arrivals",
@@ -300,9 +290,6 @@ export const pictures = [{
         src: "Cathedral-arrivals/1S5A2225.jpg",
         alt: "Cathedral Arrivals",
     }, {
-        src: "Cathedral-arrivals/1S5A2225copy.jpg",
-        alt: "Cathedral Arrivals",
-    }, {
         src: "Cathedral-arrivals/1S5A2236.jpg",
         alt: "Cathedral Arrivals",
     }, {
@@ -374,9 +361,6 @@ export const pictures = [{
         alt: "Family Photos",
     }, {
         src: "Family/02113_240316_EmilyKevin.jpg",
-        alt: "Family Photos",
-    }, {
-        src: "Family/05583_240316_EmilyKevin.jpg",
         alt: "Family Photos",
     }, {
         src: "Family/05591_240316_EmilyKevin.jpg",
@@ -497,9 +481,6 @@ export const pictures = [{
         alt: "Family Photos",
     }],
     ceremony: [{
-        src: "Ceremony/01407_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
         src: "Ceremony/01428_240316_EmilyKevin.jpg",
         alt: "Ceremony",
     },{
@@ -565,12 +546,6 @@ export const pictures = [{
     }, {
         src: "Ceremony/01760_240316_EmilyKevin.jpg",
         alt: "Ceremony"
-    }, {
-        src: "Ceremony/01777_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01779_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
     }, {
         src: "Ceremony/01992_240316_EmilyKevin.jpg",
         alt: "Ceremony"
@@ -646,78 +621,6 @@ export const pictures = [{
     }, {
         src: "Ceremony/01407_240316_EmilyKevin.jpg",
         alt: "Ceremony"
-    }, {
-        src: "Ceremony/01428_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    },{
-        src: "Ceremony/01444_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01461_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01480_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01481_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01491_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01536_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    },{
-        src: "Ceremony/01551_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01577_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01582_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01592_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01598_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01613_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    },{
-        src: "Ceremony/01676_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01678_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01684_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01695_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01697_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01706_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01722_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01733_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01760_240316_EmilyKevin.jpg",
-        alt: "Ceremony"
-    }, {
-        src: "Ceremony/01777_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
-    }, {
-        src: "Ceremony/01779_240316_EmilyKevin.jpg",
-        alt: "Ceremony",
     }, {
         src: "Ceremony/1S5A2572.jpg",
         alt: "Ceremony"
@@ -1959,30 +1862,6 @@ export const pictures = [{
         alt: "After Party",
     }, {
         src: "After-party/02425_240316_EmilyKevin.jpg",
-        alt: "After Party",
-    }, {
-        src: "After-party/02448_240316_EmilyKevin.jpg",
-        alt: "After Party",
-    }, {
-        src: "After-party/02465_240316_EmilyKevin.jpg",
-        alt: "After Party",
-    }, {
-        src: "After-party/02469_240316_EmilyKevin.jpg",
-        alt: "After Party",
-    }, {
-        src: "After-party/02478_240316_EmilyKevin.jpg",
-        alt: "After Party",
-    }, {
-        src: "After-party/02480_240316_EmilyKevin.jpg",
-        alt: "After Party",
-    }, {
-        src: "After-party/02595_240316_EmilyKevin.jpg",
-        alt: "After Party",
-    }, {
-        src: "After-party/02649_240316_EmilyKevin.jpg",
-        alt: "After Party",
-    }, {
-        src: "After-party/02676_240316_EmilyKevin.jpg",
         alt: "After Party",
     }, {
         src: "After-party/02448_240316_EmilyKevin.jpg",

@@ -10,8 +10,6 @@ import { HiOutlineChevronRight } from 'react-icons/hi'
 import styles from '@/styles/Intro.module.scss'
 import Registry from '../components/Registry'
 import Photos from '../components/Photos'
-// import Wedding from '../components/Wedding'
-// import styles from '@/styles/Home.module.scss'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 

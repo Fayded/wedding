@@ -29,9 +29,7 @@ const RootLayout = ({ children }) => {
 							</button>
 						)}
 			</section>
-			<p className="container text-sm md:text-base mb-10 md:mb-10 col-span-12 md:col-span-12 md:text-center gmb-2">
-			We are thrilled to share the highlight video and some of our favorite moments from the unforgettable night! To download a photo, click the image for a complimentary high resolution version. Enjoy!
-			</p>
+			<p className="container text-sm md:text-base mb-10 md:mb-10 col-span-12 md:col-span-12 md:text-center gmb-2">We are thrilled to share the highlight video and some of our favorite moments from the unforgettable night! Click the dropdown menu to view photos, and click any image for a complimentary high resolution version. Should you wish to view on your desktop, visit <a href="http://LoveShinesInATL.com/highlights">LoveShinesInATL.com/highlights</a>. Enjoy!</p>
 			<NavBar isOpen={isOpen} />
 			<main className="lg:mt-20">{children}</main>
 	</>
