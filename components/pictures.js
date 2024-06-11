@@ -2315,7 +2315,7 @@ export const pictures = [{
         alt: "Reception",
     }],
     afterParty: [{
-        src: "After-party/02209_240316_EmilyKevin.jpg",
+        src: "After-party/CG9A8205.jpg",
         alt: "After Party",
     }, {
         src: "After-party/02205_240316_EmilyKevin.jpg",
@@ -2456,6 +2456,9 @@ export const pictures = [{
         src: "After-party/AE8A4530.jpg",
         alt: "After Party",
     }, {
+        src: "After-party/02209_240316_EmilyKevin.jpg",
+        alt: "After Party",
+    }, {
         src: "After-party/CG9A8156.jpg",
         alt: "After Party",
     }, {
@@ -2477,9 +2480,6 @@ export const pictures = [{
         src: "After-party/CG9A8203.jpg",
         alt: "After Party",
     }, {
-        src: "After-party/CG9A8205.jpg",
-        alt: "After Party",
-    }, {
         src: "After-party/CG9A8209.jpg",
         alt: "After Party",
     }, {
@@ -2499,9 +2499,6 @@ export const pictures = [{
         alt: "After Party",
     }, {
         src: "After-party/LUV00268-Edit.jpg",
-        alt: "After Party",
-    }, {
-        src: "After-party/LUV00268.jpg",
         alt: "After Party",
     }, {
         src: "After-party/LUV00279.jpg",
