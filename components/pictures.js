@@ -28,7 +28,7 @@ export const pictures = [{
         alt: "First Looks",
     },
     {
-        src: "First-looks/05583_240316_EmilyKevin.jpg",
+        src: "First-looks/05583_240316_EmilyKevin.jpg", // Family
         alt: "First Looks",
     },
     {
@@ -42,7 +42,47 @@ export const pictures = [{
     {
         src: "First-looks/1S5A1391.jpg",
         alt: "First Looks",
+    }, 
+    {
+        src: "First-looks/1S5A1451.jpg",
+        alt: "First Looks",
+    }, 
+    {
+        src: "First-looks/1S5A2113.jpg",
+        alt: "First Looks",
+    }, 
+    {
+        src: "First-looks/1S5A3032.jpg",
+        alt: "First Looks",
+    }, 
+    {
+        src: "First-looks/1S5A3036.jpg",
+        alt: "First Looks",
+    }, 
+    {
+        src: "First-looks/1S5A3069.jpg",
+        alt: "First Looks",
+    }, 
+    {
+        src: "First-looks/1S5A3076.jpg",
+        alt: "First Looks",
+    }, 
+    {
+        src: "First-looks/1S5A3085.jpg",
+        alt: "First Looks",
     }, {
+        src: "First-looks/1S5A3115.jpg",
+        alt: "First Looks",
+    }, {
+        src: "First-looks/1S5A3120.jpg",
+        alt: "First Looks",
+    }, {
+        src: "First-looks/1S5A3135.jpg",
+        alt: "First Looks",
+    }, 
+
+
+    {
         src: "First-looks/1S5A3137.jpg",
         alt: "First Looks",
     },
@@ -147,12 +187,16 @@ export const pictures = [{
     {
         src: "First-looks/LUV04607.jpg",
         alt: "First Looks",
+    },
+    {
+        src: "First-looks/LUV04621.jpg",
+        alt: "First Looks",
     }],
     cathedralArrivals: [{
-        src: "Cathedral-arrivals/01353_240316_EmilyKevin.jpg",
+        src: "Cathedral-arrivals/01363_240316_EmilyKevin.jpg",
         alt: "Cathedral Arrivals",
     }, {
-        src: "Cathedral-arrivals/01363_240316_EmilyKevin.jpg",
+        src: "Cathedral-arrivals/01353_240316_EmilyKevin.jpg",
         alt: "Cathedral Arrivals",
     }, {
         src: "Cathedral-arrivals/01777_240316_EmilyKevin.jpg",
@@ -479,6 +523,30 @@ export const pictures = [{
     },{
         src: "Family/CG9A5565.jpg",
         alt: "Family Photos",
+    },{
+        src: "Family/CG9A5950.jpg",
+        alt: "Family Photos",
+    }, {
+        src: "Family/CG9A5976.jpg",
+        alt: "Family Photos",
+    },{
+        src: "Family/CG9A6047.jpg",
+        alt: "Family Photos",
+    }, {
+        src: "Family/CG9A6215.jpg",
+        alt: "Family Photos",
+    },{
+        src: "Family/LUV04653.jpg",
+        alt: "Family Photos",
+    }, {
+        src: "Family/LUV04676.jpg",
+        alt: "Family Photos",
+    },{
+        src: "Family/LUV05425.jpg",
+        alt: "Family Photos",
+    },{
+        src: "Family/LUV05447.jpg",
+        alt: "Family Photos",
     }],
     ceremony: [{
         src: "Ceremony/01428_240316_EmilyKevin.jpg",
@@ -587,6 +655,9 @@ export const pictures = [{
         alt: "Ceremony",
     },{
         src: "Ceremony/072A8788.jpg",
+        alt: "Ceremony"
+    }, {
+        src: "Ceremony/072A8801.jpg",
         alt: "Ceremony"
     }, {
         src: "Ceremony/072A8781.jpg",
@@ -879,6 +950,9 @@ export const pictures = [{
         alt: "Cocktail Party",
     }],
     reception: [{
+        src: "Reception/1S5A3399.jpg",
+        alt: "Reception",
+    }, {
         src: "Reception/03004_240316_EmilyKevin.jpg",
         alt: "Reception",
     }, {
@@ -1253,6 +1327,50 @@ export const pictures = [{
     }, {
         src: "Reception/04708_240316_EmilyKevin.jpg",
         alt: "Reception",
+    }, 
+    
+    , {
+        src: "Reception/04715_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04721_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04735_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04767_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04775_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04778_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04792_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04817_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04848_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04861_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04893_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04926_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04948_240316_EmilyKevin.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/04967_240316_EmilyKevin.jpg",
+        alt: "Reception",
     }, {
         src: "Reception/04978_240316_EmilyKevin.jpg",
         alt: "Reception",
@@ -1352,7 +1470,7 @@ export const pictures = [{
     }, {
         src: "Reception/1S5A3399.jpg",
         alt: "Reception",
-    },{
+    }, {
         src: "Reception/1S5A3413.jpg",
         alt: "Reception",
     }, {
@@ -1816,6 +1934,384 @@ export const pictures = [{
         alt: "Reception",
     },{
         src: "Reception/AE8A4265.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7129.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7130.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7132.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7150.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7158.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7164.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7173.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7181.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7188.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7190.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7194.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7197.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7215.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7227.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7228.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7241.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7246.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7248.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7256.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7280.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7287.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7294.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7306.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7324.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7327.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7337.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7339.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7346.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7350.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7355.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7365.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7369.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7371.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7377.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7379.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7405.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7414.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7421.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7593.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7602.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7607.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7619.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7627.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7628.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7651.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7657.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7658.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7662.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7663.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7671.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7673.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7677.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7678.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7681.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7685.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7686.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7692.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7697.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7698.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7700.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7702.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7703.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7716.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7720.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7731.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7732.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7734.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7742.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7749.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7752.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7753.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7755.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7758.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7760.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7762.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7795.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7812.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7826.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7833.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7835.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7836.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7841.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7843.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7845.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7846.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7853.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7855.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7858.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7861.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7868.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7871.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7878.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7884.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7887.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7889.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7891.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7898.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7900.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7902.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7905.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7916.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7922.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7927.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7929.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7932.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7937.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7939.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7952.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7955.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7978.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7989.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7990.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A7992.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A7993.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/CG9A8013.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A8019.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A8029.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A8044.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/CG9A8055.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/LUV08047.jpg",
+        alt: "Reception",
+    },{
+        src: "Reception/LUV08082.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/LUV08148.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/LUV08557.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/LUV08605.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/LUV08611.jpg",
+        alt: "Reception",
+    }, {
+        src: "Reception/LUV08751.jpg",
         alt: "Reception",
     }],
     afterParty: [{
