@@ -4,8 +4,6 @@ import HighlightsLayout from "@/components/HighlightsLayout";
 
 export default function Highlights() {
 	const videoRef = useRef();
-	const [muted, setMuted] = useState(false);
-	const [play, setPlay] = useState(false);
 
 	useEffect(() => {
 		if (videoRef.current) {
@@ -13,13 +11,11 @@ export default function Highlights() {
 				videoRef.current?.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" })
 			)
 		}
-		videoRef.current.play();
-		videoRef.current.muted = false;
 	}, [])
 
   return (
     <section className="flex justify-center mt-10">
-      <video controls ref={videoRef} preload="none" muted width="100%" poster="https://fayco.imgix.net/Reception/1S5A3399.jpg">
+      <video controls ref={videoRef} preload="none" width="100%" poster="https://fayco.imgix.net/Reception/1S5A3399.jpg">
 				<source src="https://fayco.imgix.net/E-K_432.mp4.mp4" media="(max-width: 599px)" type="video/mp4" />
         <source src="https://fayco.imgix.net/E-K_1080.mp4.mp4" type="video/mp4" />
         <track
